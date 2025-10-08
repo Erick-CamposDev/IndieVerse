@@ -1,0 +1,100 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background: #292727ab;
+  height: 125px;
+}
+
+.logo img {
+  width: 135px;
+  height: 110px;
+}
+
+.steam img {
+  width: 55px;
+  height: 55px;
+}
+
+.game-title > h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.search-btn {
+  padding: 0.65rem;
+  border: 1px solid #0a0a0a;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #fafafa;
+  transition: all 0.3s ease-in;
+}
+
+.search-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px #0000006b;
+  filter: brightness(1.2);
+}
+
+.search-btn i {
+  font-size: 20px;
+}
+
+#gameBar {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.65rem;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #0a0a0a;
+  transition: all 0.3s ease;
+}
+
+#gameBar:focus {
+  outline: none;
+  border: 2px solid #3a84af;
+}
+
+.steam-link {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+.steam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.steam > p {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#steamBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 10px;
+  transition: all 0.3s ease-in;
+}
+
+#steamBtn:hover {
+  transform: scale(1.02);
+  filter: invert(1);
+}
