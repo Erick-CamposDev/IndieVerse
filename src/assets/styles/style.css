@@ -141,6 +141,39 @@ header {
   filter: invert(1);
 }
 
+#menuMobile {
+  display: none;
+}
+
+.close-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.close-btn > label {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+#closeBtn {
+  margin: 1rem 0;
+  background: transparent;
+  color: #fafafa;
+  border: none;
+}
+
+#closeBtn > i {
+  font-size: 35px;
+}
+
+#gameBarMobile {
+  padding: 0.6rem;
+  border-radius: 12px;
+  border: 2px solid #0a0a0a;
+}
+
 main {
   width: 100%;
   padding-top: 2rem;
@@ -179,6 +212,23 @@ footer {
   }
   .steam {
     display: none;
+  }
+
+  #menuMobile {
+    padding: 0.6rem;
+    background: #580a55;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 230px;
+  }
+
+  #menuMobile > nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 

@@ -66,17 +66,40 @@
         <p>Acesse o jogo pela steam!</p>
       </div>
     </header>
-    <div class="menu-mobile" id="menuMobile" style="display: none">
+    <div class="menu-mobile" id="menuMobile">
+      <div class="close-btn">
+        <button id="closeBtn">
+          <i class="bi bi-x-circle"></i>
+        </button>
+        <label for="closeBtn">Fechar</label>
+      </div>
       <nav>
         <div class="search-mobile">
           <input
             type="text"
-            class="searchInput"
             id="gameBarMobile"
             name="game"
+            placeholder="Digite o nome do jogo"
           />
+          <button class="search-btn-mobile">
+            <i class="bi bi-search"></i>
+          </button>
         </div>
-        <div class="steamMobile"></div>
+        <div class="steamMobile">
+          <a
+            href="https://store.steampowered.com/?l=portuguese"
+            target="_blank"
+          >
+            <button id="steamMobile">
+              <img
+                width="30px"
+                height="30px"
+                src="src/assets/imgs/icons/Steam-logo.png"
+                alt="Logo da steam"
+              />
+            </button>
+          </a>
+        </div>
       </nav>
     </div>
     <main></main>
@@ -91,5 +114,8 @@
         <p>&copy; 2025 Indieverse. Todos os direitos Reservados</p>
       </div>
     </footer>
+    <script src="src/assets/js/script.js"></script>
+    <script src="src/assets/js/mobile.js"></script>
+    <script src="src/assets/js/games.js"></script>
   </body>
 </html>

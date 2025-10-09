@@ -19,3 +19,7 @@
 .copyright {
   font-family: "Roboto";
 }
+
+.close-btn > label {
+  font-family: "Nunito";
+}
