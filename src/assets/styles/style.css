@@ -257,7 +257,7 @@ footer {
   }
 
   #menuMobile {
-    padding: 0.6rem;
+    padding: 0;
     background: linear-gradient(
       to bottom,
       #0a0a0acc 0%,
@@ -271,11 +271,17 @@ footer {
     justify-content: flex-start;
     flex-direction: column;
     height: 100%;
-    width: 230px;
-    border: 2px solid #0a0a0a73;
-    box-shadow: 3px 3px 10px #0a0a0a9f;
+    width: 0;
     overflow: hidden;
     backdrop-filter: blur(18px);
+    transition: all 0.5s ease;
+  }
+
+  #menuMobile.active {
+    width: 250px;
+    padding: 0.6rem;
+    box-shadow: 3px 3px 10px #0a0a0a9f;
+    border: 2px solid #0a0a0a73;
   }
 
   #menuMobile > nav {
