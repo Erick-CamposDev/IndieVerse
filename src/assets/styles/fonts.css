@@ -23,3 +23,15 @@
 .close-btn > label {
   font-family: "Nunito";
 }
+
+#gameBarMobile {
+  font-family: "Roboto";
+}
+
+.message-mobile > p {
+  font-family: "Nunito";
+}
+
+.steam-mobile > a > p {
+  font-family: "Roboto";
+}

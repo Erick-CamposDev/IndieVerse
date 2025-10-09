@@ -46,7 +46,6 @@ header {
 }
 
 .message > p {
-  color: #ff0000;
   margin-left: 10rem;
   text-align: center;
   font-weight: 600;
@@ -172,6 +171,49 @@ header {
   padding: 0.6rem;
   border-radius: 12px;
   border: 2px solid #0a0a0a;
+  font-size: 15px;
+}
+
+.search-btn-mobile {
+  border: 1px solid #0a0a0a;
+  border-radius: 10px;
+  padding: 0.55rem;
+  transition: all 0.3s ease;
+}
+
+.search-btn-mobile:active {
+  opacity: 0.6;
+}
+
+.search-btn-mobile > i {
+  font-size: 18px;
+}
+
+.message-mobile > p {
+  font-weight: 600;
+}
+
+.steam-mobile > a {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.steam-mobile > a > p {
+  color: #fafafa;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.steam-mobile > p {
+  color: #fafafa;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#steamMobile {
+  width: 45px;
+  height: 45px;
 }
 
 main {
@@ -223,6 +265,9 @@ footer {
     flex-direction: column;
     height: 100%;
     width: 230px;
+    border: 2px solid #0a0a0a73;
+    box-shadow: 3px 3px 10px #0a0a0a9f;
+    overflow: hidden;
   }
 
   #menuMobile > nav {
