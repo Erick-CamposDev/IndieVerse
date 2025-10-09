@@ -34,14 +34,18 @@
           alt="Logo oficial do Indieverse"
         />
       </div>
-      <div class="search-bar">
-        <input
-          type="text"
-          name="game"
-          id="gameBar"
-          placeholder="Digite o nome do jogo"
-        />
-        <button class="search-btn"><i class="bi bi-search"></i></button>
+      <div class="search-container">
+        <div class="search-bar">
+          <input
+            type="text"
+            name="game"
+            id="gameBar"
+            class="search-input"
+            placeholder="Digite o nome do jogo"
+          />
+          <button class="search-btn"><i class="bi bi-search"></i></button>
+        </div>
+        <div class="message"></div>
       </div>
       <div class="menu-button">
         <button id="menuBtn"><i class="bi bi-list"></i></button>
@@ -62,7 +66,30 @@
         <p>Acesse o jogo pela steam!</p>
       </div>
     </header>
+    <div class="menu-mobile" id="menuMobile" style="display: none">
+      <nav>
+        <div class="search-mobile">
+          <input
+            type="text"
+            class="searchInput"
+            id="gameBarMobile"
+            name="game"
+          />
+        </div>
+        <div class="steamMobile"></div>
+      </nav>
+    </div>
     <main></main>
-    <footer></footer>
+    <footer>
+      <div class="logo">
+        <img
+          src="src/assets/imgs/icons/LOGO INDIEVERSE.png"
+          alt="Logo Indieverse"
+        />
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Indieverse. Todos os direitos Reservados</p>
+      </div>
+    </footer>
   </body>
 </html>

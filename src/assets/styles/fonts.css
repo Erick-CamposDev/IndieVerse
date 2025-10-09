@@ -8,6 +8,14 @@
   font-family: "Roboto";
 }
 
+.message > p {
+  font-family: "Nunito";
+}
+
 .steam > p {
   font-family: "Nunito";
+}
+
+.copyright {
+  font-family: "Roboto";
 }

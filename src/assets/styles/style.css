@@ -4,12 +4,22 @@ body {
 }
 
 header {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  background: #7b437ae3;
+  background: linear-gradient(
+    to top,
+    #0a0a0a 0%,
+    #2b0129 25%,
+    #580a55 50%,
+    #811c7eb7 75%,
+    #7b437ae3 100%
+  );
   height: 125px;
+  backdrop-filter: blur(10px);
+  box-shadow: 6px 6px 12px #0a0a0aa8;
 }
 
 .logo img {
@@ -26,6 +36,20 @@ header {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.message > p {
+  color: #ff0000;
+  margin-left: 10rem;
+  text-align: center;
+  font-weight: 600;
 }
 
 .search-bar {
@@ -101,10 +125,7 @@ header {
   font-weight: 700;
   margin: 0;
   white-space: normal;
-}
-
-.steam:hover {
-  filter: invert(1);
+  color: #fafafa;
 }
 
 #steamBtn {
@@ -117,6 +138,39 @@ header {
 
 #steamBtn:hover {
   transform: scale(1.1);
+  filter: invert(1);
+}
+
+main {
+  width: 100%;
+  padding-top: 2rem;
+  background: url("../imgs/background-imgs/HollowKnight3.avif");
+  min-height: 130vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    to bottom,
+    #0a0a0a 0%,
+    #2b0129 25%,
+    #580a55 50%,
+    #811c7e 75%,
+    #7b437a 100%
+  );
+  color: #fafafa;
+  text-align: center;
+}
+
+.copyright {
+  font-weight: 600;
+  font-style: italic;
 }
 
 @media (min-width: 280px) and (max-width: 425px) {
@@ -133,6 +187,10 @@ header {
     margin-left: 0.5rem;
   }
 
+  .message > p {
+    margin-left: 0.5rem;
+  }
+
   .steam > p {
     font-size: 16px;
   }
@@ -140,6 +198,10 @@ header {
 
 @media (min-width: 768px) and (max-width: 1100px) {
   .search-bar {
+    margin-left: 3.5rem;
+  }
+
+  .message > p {
     margin-left: 3.5rem;
   }
 }
