@@ -258,7 +258,14 @@ footer {
 
   #menuMobile {
     padding: 0.6rem;
-    background: #580a55;
+    background: linear-gradient(
+      to bottom,
+      #0a0a0acc 0%,
+      #2b0129c5 25%,
+      #580a55c5 50%,
+      #811c7eb6 75%,
+      #7b437ac4 100%
+    );
     position: fixed;
     display: flex;
     justify-content: flex-start;
@@ -268,6 +275,7 @@ footer {
     border: 2px solid #0a0a0a73;
     box-shadow: 3px 3px 10px #0a0a0a9f;
     overflow: hidden;
+    backdrop-filter: blur(18px);
   }
 
   #menuMobile > nav {
