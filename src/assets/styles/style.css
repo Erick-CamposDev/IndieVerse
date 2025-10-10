@@ -33,12 +33,6 @@ header {
   height: 55px;
 }
 
-.game-title > h1 {
-  font-weight: 900;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .search-container {
   display: flex;
   align-items: center;
@@ -236,8 +230,8 @@ main::before {
   background: linear-gradient(
     to bottom,
     #0a0a0a 10%,
-    #00000031 25%,
-    #0a0a0a62 75%,
+    #00000098 25%,
+    #0a0a0a85 75%,
     #0a0a0a 100%
   );
 }
@@ -321,7 +315,53 @@ main::before {
   color: #fafafa;
   font-weight: 600;
   font-size: 18px;
-  width: 60%;
+  width: 90%;
+}
+
+.show-more-container {
+  margin: 1.5rem 0 0 1rem;
+}
+
+#showMoreBtn {
+  position: relative;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 2px solid #fafafa;
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 17px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+}
+
+#showMoreBtn::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: #fafafa;
+  left: 0;
+  top: 0;
+  width: 0;
+  transition: all 0.3s ease-in;
+  z-index: -1;
+}
+
+#showMoreBtn:hover {
+  color: #0a0a0a;
+  border: 2px solid #0a0a0a;
+  transform: scale(1.05);
+  filter: brightness(1.2);
+  box-shadow: 5px 5px 12px #0a0a0a8e;
+}
+
+#showMoreBtn:hover::after {
+  width: 100%;
+}
+
+#showMoreBtn:active {
+  opacity: 0.6;
 }
 
 footer {
@@ -371,8 +411,10 @@ footer {
     height: 100%;
     width: 0;
     overflow: hidden;
+    text-overflow: ellipsis;
     backdrop-filter: blur(18px);
     transition: all 0.5s ease;
+    z-index: 99999;
   }
 
   #menuMobile.active {
@@ -402,13 +444,51 @@ footer {
   }
 
   .game-info {
+    justify-content: center;
     align-items: center;
     margin: 0;
+    text-align: center;
   }
 
+  .game-description,
+  .game-type {
+    margin: 0;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 350px) {
   #gameLogo {
-    width: 270px;
-    height: 200px;
+    width: 180px;
+    height: 160px;
+  }
+
+  #gameCharacter {
+    width: 100px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 425px) {
+  #gameLogo {
+    width: 190px;
+    height: 160px;
+  }
+
+  #gameCharacter {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 425px) {
+  #gameLogo {
+    width: 200px;
+    height: 160px;
+  }
+
+  #gameCharacter {
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -423,6 +503,28 @@ footer {
 
   .steam > p {
     font-size: 16px;
+  }
+
+  #gameLogo {
+    width: 230px;
+    height: 160px;
+  }
+
+  #gameCharacter {
+    width: 160px;
+    height: 140px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  #gameLogo {
+    width: 330px;
+    height: 200px;
+  }
+
+  #gameCharacter {
+    width: 200px;
+    height: 180px;
   }
 }
 
