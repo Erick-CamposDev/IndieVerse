@@ -16,6 +16,14 @@
   font-family: "Nunito";
 }
 
+.game-type > h2 {
+  font-family: "Nunito";
+}
+
+.game-description > p {
+  font-family: "Roboto";
+}
+
 .copyright {
   font-family: "Roboto";
 }

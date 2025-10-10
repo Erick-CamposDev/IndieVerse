@@ -20,6 +20,7 @@ header {
   height: 125px;
   backdrop-filter: blur(10px);
   box-shadow: 6px 6px 12px #0a0a0aa8;
+  z-index: 9999;
 }
 
 .logo img {
@@ -217,6 +218,7 @@ header {
 }
 
 main {
+  position: relative;
   width: 100%;
   padding-top: 2rem;
   background: url("../imgs/background-imgs/HollowKnight3.avif");
@@ -224,6 +226,20 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+main::before {
+  position: absolute;
+  content: "";
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to bottom,
+    #0a0a0a 10%,
+    #00000031 25%,
+    #0a0a0a62 75%,
+    #0a0a0a 100%
+  );
 }
 
 .carrossel-container {
@@ -241,6 +257,12 @@ main {
   align-items: flex-start;
   flex-direction: column;
   margin: 1rem;
+  z-index: 1;
+}
+
+.game-logo-container {
+  display: flex;
+  align-items: center;
 }
 
 #gameLogo {
@@ -248,11 +270,17 @@ main {
   height: 200px;
 }
 
+#gameCharacter {
+  width: 100%;
+  height: 230px;
+}
+
 .arrow-container {
   position: fixed;
   right: 0;
   bottom: 0;
   margin-bottom: 2rem;
+  z-index: 100;
 }
 
 .arrowBtn {
@@ -275,6 +303,25 @@ main {
 
 .arrowBtn:active {
   opacity: 0.6;
+}
+
+.game-type {
+  margin-left: 1rem;
+  color: #fafafa;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.game-type > h2 {
+  text-shadow: 3px 3px 1px #000000;
+}
+
+.game-description {
+  margin-left: 1rem;
+  color: #fafafa;
+  font-weight: 600;
+  font-size: 18px;
+  width: 60%;
 }
 
 footer {
