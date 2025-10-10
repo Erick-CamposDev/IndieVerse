@@ -257,6 +257,7 @@ main::before {
 .game-logo-container {
   display: flex;
   align-items: center;
+  margin: 1rem;
 }
 
 #gameLogo {
@@ -452,7 +453,7 @@ footer {
 
   .game-description,
   .game-type,
-  .show-more-container {
+  .show-more-container .game-logo-container {
     margin: 0;
   }
 }
