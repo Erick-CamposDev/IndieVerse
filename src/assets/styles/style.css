@@ -451,7 +451,8 @@ footer {
   }
 
   .game-description,
-  .game-type {
+  .game-type,
+  .show-more-container {
     margin: 0;
   }
 }
