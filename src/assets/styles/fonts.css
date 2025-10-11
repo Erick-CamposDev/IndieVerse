@@ -48,6 +48,18 @@
   font-family: "Roboto";
 }
 
+.close-modal-container > label {
+  font-family: "Nunito";
+}
+
 ul > li {
   font-family: "Nunito";
+}
+
+.game-content > h3 {
+  font-family: "Nunito";
+}
+
+.game-content > p {
+  font-family: "Roboto";
 }
