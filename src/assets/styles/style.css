@@ -385,7 +385,7 @@ main::before {
   border: 2px solid #fafafa;
   width: 70%;
   margin: 1rem;
-  height: 550px;
+  height: 95%;
   border-radius: 22px;
   background: linear-gradient(
     to top,
@@ -397,6 +397,7 @@ main::before {
   );
   backdrop-filter: blur(10px);
   box-shadow: 6px 6px 12px #0a0a0a88;
+  padding: 1rem;
 }
 
 .close-modal-container {
@@ -519,8 +520,11 @@ ul > li {
 .tabBtns:hover {
   transform: scale(1.05);
   padding: 0.8rem 0.6rem;
-  width: 160px;
+  width: 170px;
   border-radius: 17px;
+  background: transparent;
+  border: 2px solid #fafafa;
+  color: #fafafa;
 }
 
 .tabBtns:hover span {
@@ -688,6 +692,12 @@ footer {
   }
 }
 
+@media (max-width: 650px) {
+  .tab-buttons {
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 550px) and (max-width: 768px) {
   #gameLogo {
     width: 330px;
@@ -697,6 +707,27 @@ footer {
   #gameCharacter {
     width: 200px;
     height: 180px;
+  }
+
+  .modal {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tabBtns {
+    width: 170px;
+    padding: 0.8rem 0.8rem;
+    border-radius: 17px;
+    background: transparent;
+    border: 2px solid #fafafa;
+    color: #fafafa;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .tabBtns span {
+    opacity: 1;
   }
 }
 
