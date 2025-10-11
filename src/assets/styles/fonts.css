@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-.game-title > h1 {
+.game-title > h2 {
+  font-family: "Archivo Black";
+}
+
+.creator-container > h3 {
   font-family: "Nunito";
 }
 
@@ -42,4 +46,8 @@
 
 .steam-mobile > a > p {
   font-family: "Roboto";
+}
+
+ul > li {
+  font-family: "Nunito";
 }

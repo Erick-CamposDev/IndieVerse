@@ -313,7 +313,7 @@ main::before {
 }
 
 .game-description {
-  margin-left: 1rem;
+  margin: 1.25rem 0 0 1rem;
   color: #fafafa;
   font-weight: 600;
   font-size: 18px;
@@ -321,7 +321,7 @@ main::before {
 }
 
 .show-more-container {
-  margin: 1.5rem 0 0 1rem;
+  margin: 2rem 0 0 1rem;
 }
 
 #showMoreBtn {
@@ -367,7 +367,7 @@ main::before {
 }
 
 .modal-bg {
-  display: none;
+  display: flex;
   top: 0;
   right: 0;
   align-items: center;
@@ -419,6 +419,52 @@ main::before {
 
 #closeModalBtn:active {
   opacity: 0.6;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-title {
+  display: flex;
+  flex-direction: column;
+  color: #fafafa;
+  margin-left: 1.5rem;
+}
+
+.game-title > h2 {
+  font-weight: 800;
+  text-shadow: 3px 3px #0a0a0a;
+}
+
+.creator-container > h3 {
+  font-weight: 800;
+  text-shadow: 3px 3px #0a0a0a;
+}
+
+.creator-container {
+  display: flex;
+  align-items: center;
+}
+
+.creator-logo {
+  width: 100px;
+  height: 80px;
+}
+
+.game-infos-list {
+  margin: 1rem 0 0 1.5rem;
+}
+
+ul > li {
+  display: flex;
+  color: #fafafa;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 800;
+  text-shadow: 3px 3px #0a0a0a;
+  margin-bottom: 0.35rem;
 }
 
 footer {
@@ -475,7 +521,7 @@ footer {
   }
 
   #menuMobile.active {
-    width: 250px;
+    width: 270px;
     padding: 0.6rem;
     box-shadow: 3px 3px 10px #0a0a0a9f;
     border: 2px solid #0a0a0a73;
