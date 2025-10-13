@@ -367,7 +367,7 @@ main::before {
 }
 
 .modal-bg {
-  display: flex;
+  display: none;
   top: 0;
   right: 0;
   align-items: center;
@@ -497,6 +497,7 @@ main::before {
 }
 
 .creator-logo {
+  margin-left: 0.5rem;
   width: 100px;
   height: 80px;
 }
