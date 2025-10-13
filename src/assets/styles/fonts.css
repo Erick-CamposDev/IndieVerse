@@ -95,6 +95,15 @@ ul > li {
   font-family: "Roboto";
 }
 
+.curiosities > h3,
+.curiosities > ul > li > span {
+  font-family: "Nunito";
+}
+
+.curiosities > ul > li {
+  font-family: "Roboto";
+}
+
 .mobileTabBtn {
   font-family: "Nunito";
 }

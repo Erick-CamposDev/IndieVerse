@@ -433,7 +433,7 @@ main::before {
 
 #content1,
 #content2,
-#content4 {
+#content3 {
   display: none;
 }
 
@@ -444,9 +444,13 @@ main::before {
 }
 
 #content3 {
-  display: flex;
   gap: 0.5rem;
   margin-left: 1.5rem;
+  color: #fafafa;
+}
+
+#content4 {
+  gap: 0.5rem;
   color: #fafafa;
 }
 
@@ -554,6 +558,32 @@ ul > li {
   gap: 0;
   font-weight: 400;
   text-shadow: none;
+}
+
+.curiosities > ul > li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.curiosities > h3 {
+  margin-bottom: 0.5rem;
+  text-shadow: 3px 3px #0a0a0a;
+  font-weight: 800;
+}
+
+.curiosities > ul > li > span {
+  font-size: 18px;
+  text-shadow: 3px 3px #0a0a0a;
+  font-weight: 800;
+}
+
+.curiosities > ul > li {
+  gap: 0;
+  font-size: 13px;
+  text-shadow: none;
+  font-weight: 400;
 }
 
 .tab-buttons {
@@ -729,6 +759,10 @@ footer {
   #content3 {
     text-align: center;
     margin: 0;
+  }
+
+  .curiosities > ul > li > span {
+    font-size: 15px;
   }
 
   .upper-award-content > p,
