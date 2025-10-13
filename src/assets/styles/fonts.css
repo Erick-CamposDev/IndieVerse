@@ -60,7 +60,23 @@ ul > li {
   font-family: "Nunito";
 }
 
+.gameplay-content > h3 {
+  font-family: "Nunito";
+}
+
 .game-content > p {
+  font-family: "Roboto";
+}
+
+.gameplay-content > p {
+  font-family: "Roboto";
+}
+
+.gameplay-list > h3 {
+  font-family: "Nunito";
+}
+
+.gameplay-list > ul > li {
   font-family: "Roboto";
 }
 

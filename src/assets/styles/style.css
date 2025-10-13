@@ -431,6 +431,17 @@ main::before {
   opacity: 0.6;
 }
 
+#content1 {
+  display: none;
+}
+
+#content2 {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1.5rem;
+  color: #fafafa;
+}
+
 .tab-mobile {
   display: none;
 }
@@ -506,6 +517,22 @@ ul > li {
   text-shadow: 3px 3px #0a0a0a;
 }
 
+.gameplay-content > h3 {
+  font-weight: 800;
+  text-shadow: 3px 3px #0a0a0a;
+  margin-bottom: 0.5rem;
+}
+
+.gameplay-list > h3 {
+  font-weight: 800;
+  text-shadow: 3px 3px #0a0a0a;
+  margin-bottom: 0.5rem;
+}
+
+.gameplay-list > ul > li {
+  font-weight: 400;
+  text-shadow: none;
+}
 .tab-buttons {
   display: flex;
   align-items: center;
@@ -671,6 +698,20 @@ footer {
     text-align: center;
   }
 
+  #content2 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .gameplay-list > ul {
+    text-align: left;
+  }
+
+  .gameplay-content > p,
+  .gameplay-list > ul > li {
+    font-size: 13px;
+  }
+
   .game-title,
   .creator-container,
   .game-infos-list,
@@ -786,6 +827,13 @@ footer {
 
   .tab-menu-mobile {
     display: flex;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 650px) {
+  .gameplay-content > p,
+  .gameplay-list > ul > li {
+    font-size: 14px;
   }
 }
 
