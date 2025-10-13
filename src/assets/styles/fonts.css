@@ -80,6 +80,21 @@ ul > li {
   font-family: "Roboto";
 }
 
+.upper-award-content > h3,
+.award-list > h3,
+.game-legacy > h3 {
+  font-family: "Nunito";
+}
+
+.award-list > ul > li {
+  font-family: "Roboto";
+}
+
+.upper-award-content > p,
+.game-legacy > p {
+  font-family: "Roboto";
+}
+
 .mobileTabBtn {
   font-family: "Nunito";
 }

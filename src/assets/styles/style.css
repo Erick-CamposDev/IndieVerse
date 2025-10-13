@@ -431,11 +431,19 @@ main::before {
   opacity: 0.6;
 }
 
-#content1 {
+#content1,
+#content2,
+#content4 {
   display: none;
 }
 
 #content2 {
+  gap: 0.5rem;
+  margin-left: 1.5rem;
+  color: #fafafa;
+}
+
+#content3 {
   display: flex;
   gap: 0.5rem;
   margin-left: 1.5rem;
@@ -533,6 +541,21 @@ ul > li {
   font-weight: 400;
   text-shadow: none;
 }
+
+.upper-award-content > h3,
+.award-list > h3,
+.game-legacy > h3 {
+  margin-bottom: 0.5rem;
+  text-shadow: 3px 3px #0a0a0a;
+  font-weight: 800;
+}
+
+.award-list > ul > li {
+  gap: 0;
+  font-weight: 400;
+  text-shadow: none;
+}
+
 .tab-buttons {
   display: flex;
   align-items: center;
@@ -701,6 +724,18 @@ footer {
   #content2 {
     text-align: center;
     margin: 0;
+  }
+
+  #content3 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .upper-award-content > p,
+  .award-list > ul,
+  li,
+  .game-legacy > p {
+    font-size: 13px;
   }
 
   .gameplay-list > ul {
