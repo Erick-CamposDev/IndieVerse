@@ -11,6 +11,7 @@ function openModal() {
 
 function closeModal() {
   modal.style.display = "none";
+  tabMenu.classList.remove("active");
 }
 
 tabBtns.forEach((button, i) => {
