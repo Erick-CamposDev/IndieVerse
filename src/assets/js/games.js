@@ -1,17 +1,17 @@
 //prettier-ignore
 class Game{
-    constructor(name, type, logo, character, backgroud, dataLaunch, steamUrl, creatorLogo,
+    constructor(name, type, logo, character, background, dataLaunch, steamUrl, creatorLogo,
         description, history, gameplayDesc, gameplayElements, awardsDesc, awards,
         legacy, title, curiosities, platforms){
             this.name = name
             this.type = type
             this.logo = logo
             this.character = character
-            this.backgroud = backgroud
+            this.background = background
             this.data = dataLaunch
             this.url = steamUrl
             this.creatorLogo = creatorLogo
-            this. description = description
+            this.description = description
             this.history = history
             this.gameplayDesc = gameplayDesc
             this.gameplayElements = gameplayElements
@@ -29,7 +29,7 @@ const hollowKnight = new Game(
   "Metroidvania / Ação e Aventura / Plataforma 2D",
   "src/assets/imgs/logos/Hollow Knight logo.webp",
   "src/assets/imgs/character/The_knight.webp",
-  "src/assets/imgs/charcter/HollowKnight3.avif",
+  "src/assets/imgs/background-imgs/HollowKnight3.avif",
   "24 de fevereiro de 2017",
   "https://store.steampowered.com/app/367520/Hollow_Knight/",
   "src/assets/imgs/team-cherry-logo.png",
@@ -72,7 +72,10 @@ const hollowKnight = new Game(
     "O projeto começou como uma campanha no Kickstarter em 2014, arrecadando cerca de US$ 57 mil, valor relativamente baixo para a grandiosidade do resultado final.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png, src/assets/imgs/game-platforms/Playstation logo.png, src/assets/imgs/game-platforms/xbox-logo.png, src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    "src/assets/imgs/game-platforms/Steam-logo.png",
+    "src/assets/imgs/game-platforms/Playstation logo.png",
+    "src/assets/imgs/game-platforms/xbox-logo.png",
+    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
   ]
 );
 
@@ -80,8 +83,8 @@ const undertale = new Game(
   "Undertale",
   "RPG / Indie / Aventura",
   "src/assets/imgs/logos/Undertale-Logo.png",
-  "src/assets/imgs/character/Frisk.png",
-  "src/assets/imgs/background-imgs/caste-img-undertale.png",
+  "src/assets/imgs/character/frisk-undertale.webp",
+  "src/assets/imgs/background-imgs/castle-img-undertale.png",
   "15 de setembro de 2015",
   "https://store.steampowered.com/app/391540/Undertale/",
   "src/assets/imgs/creator-img/toby-fox.webp",
@@ -117,15 +120,17 @@ const undertale = new Game(
     "O final muda drasticamente dependendo de suas escolhas durante o jogo.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png, src/assets/imgs/game-platforms/Playstation logo.png, src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    "src/assets/imgs/game-platforms/Steam-logo.png",
+    "src/assets/imgs/game-platforms/Playstation logo.png",
+    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
   ]
 );
 
 const deltarune = new Game(
   "Deltarune",
   "RPG / Indie / Aventura",
-  "src/assets/imgs/logos/Deltarune-bg.jpg",
-  "src/assets/imgs/character/kris-deltarune-webp",
+  "src/assets/imgs/logos/DeltaruneLogo.webp",
+  "src/assets/imgs/character/kris-deltarune.webp",
   "src/assets/imgs/background-imgs/deltarune-bg.jpg",
   "31 de outubro de 2018",
   "https://store.steampowered.com/app/1671210/DELTARUNE/",
@@ -161,19 +166,21 @@ const deltarune = new Game(
     "O sistema de combate agora inclui defesa ativa, tornando as batalhas mais dinâmicas.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png, src/assets/imgs/game-platforms/Playstation logo.png, src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    "src/assets/imgs/game-platforms/Steam-logo.png",
+    "src/assets/imgs/game-platforms/Playstation logo.png",
+    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
   ]
 );
 
 const silksong = new Game(
-  "Hollow Knight: Silksong",
+  "Hollow Knight Silksong",
   "Metroidvania / Ação e Aventura / Plataforma 2D",
-  "src/assets/imgs/logos/hk-silskong-logo.webp",
+  "src/assets/imgs/logos/hk-silksong-logo.webp",
   "src/assets/imgs/character/hornet-hk-silksong.webp",
   "src/assets/imgs/background-imgs/silksong-bg.jpg",
   "4 de setembro de 2025",
   "https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/",
-  "src/assets/imgs/team-cherry-logo.png",
+  "src/assets/imgs/creator-img/team-cherry-logo.png",
   "Hollow Knight: Silksong é a sequência de Hollow Knight, desenvolvida pela Team Cherry. Desta vez, você controla Hornet, explorando um novo reino chamado Fiarlongo repleto de desafios, segredos e inimigos inéditos.",
   "Em Silksong, o jogador assume o controle de Hornet, a princesa protetora de Hallownest, que foi capturada e levada para o misterioso reino de Pharloom. Este novo mundo é descrito como 'assombrado por seda e música', oferecendo uma atmosfera única e repleta de segredos. Hornet deve enfrentar desafios e inimigos enquanto busca entender os motivos de sua captura e desvendar os mistérios que permeiam Fiarlongo.",
   "A jogabilidade de Silksong expande e refina os elementos do primeiro jogo. Hornet é mais ágil e versátil, equipada com uma agulha e linha que lhe conferem habilidades de combate e movimentação aprimoradas. O jogo apresenta mais de 165 inimigos diferentes, além de diversos NPCs que enriquecem a experiência. A exploração é incentivada por meio de um sistema de missões que recompensa o jogador com upgrades e habilidades adicionais. A dinâmica de combate é mais rápida e fluida, com Hornet podendo realizar ataques à distância e combos, proporcionando uma experiência mais intensa e estratégica.",
@@ -206,7 +213,10 @@ const silksong = new Game(
     "Mais de 150 novos inimigos prometem variedade e desafio.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png, src/assets/imgs/game-platforms/Playstation logo.png, src/assets/imgs/game-platforms/xbox-logo.png, src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    "src/assets/imgs/game-platforms/Steam-logo.png",
+    "src/assets/imgs/game-platforms/Playstation logo.png",
+    "src/assets/imgs/game-platforms/xbox-logo.png",
+    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
   ]
 );
 
@@ -215,10 +225,10 @@ const celeste = new Game(
   "Plataforma / Indie / Aventura",
   "src/assets/imgs/logos/Celeste-logo.png",
   "src/assets/imgs/character/madeline-celeste.png",
-  "src/assets/imgs/background-imgs/celeste-bg.avif",
+  "src/assets/imgs/background-imgs/celeste-background.webp",
   "25 de janeiro de 2018",
   "https://store.steampowered.com/app/504230/Celeste/",
-  "src/assets/imgs/creator-img/maddy-makes-games.png",
+  "src/assets/imgs/creator-img/maddy-make-games.png",
   "Celeste é um jogo de plataforma desafiador sobre escalar a Montanha Celeste. Você controla Madeline em sua jornada de autodescoberta, enfrentando desafios físicos e emocionais em fases criativas e difíceis.",
   "Celeste tem como história a jornada de Madeline, uma jovem que decide escalar a montanha Celeste. Mais do que apenas enfrentar desafios físicos, ela precisa lidar com seus próprios medos, ansiedade e inseguranças. Durante a escalada, Madeline encontra uma versão sombria de si mesma, que representa suas dúvidas internas e momentos de fraqueza, sendo necessário confrontar essa parte de si para avançar. O jogo aborda temas como superação pessoal, saúde mental e autoaceitação, criando uma narrativa emocionalmente envolvente que conecta o jogador com a personagem.",
   "Na jogabilidade, Celeste é um jogo de plataforma 2D focado em precisão e timing. O jogador precisa dominar saltos, dashes rápidos e escaladas estratégicas para superar obstáculos desafiadores. Cada fase é desenhada para testar reflexos e paciência, mas checkpoints frequentes garantem que o progresso não se torne frustrante. Além disso, há coletáveis opcionais, como morangos, que oferecem desafios extras e recompensas para jogadores mais habilidosos. O design das fases combina dificuldade justa com sensação de conquista ao completar cada trecho.",
@@ -251,7 +261,10 @@ const celeste = new Game(
     "Há desafios extras para quem busca mais dificuldade.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png, src/assets/imgs/game-platforms/Playstation logo.png, src/assets/imgs/game-platforms/xbox-logo.png, src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    "src/assets/imgs/game-platforms/Steam-logo.png",
+    "src/assets/imgs/game-platforms/Playstation logo.png",
+    "src/assets/imgs/game-platforms/xbox-logo.png",
+    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
   ]
 );
 
@@ -296,7 +309,10 @@ const cuphead = new Game(
     "Cuphead é conhecido por sua dificuldade elevada, mas recompensadora.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png, src/assets/imgs/game-platforms/Playstation logo.png, src/assets/imgs/game-platforms/xbox-logo.png, src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    "src/assets/imgs/game-platforms/Steam-logo.png",
+    "src/assets/imgs/game-platforms/Playstation logo.png",
+    "src/assets/imgs/game-platforms/xbox-logo.png",
+    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
   ]
 );
 
@@ -304,7 +320,7 @@ const shovelKnight = new Game(
   "Shovel Knight",
   "Plataforma / Ação / Indie",
   "src/assets/imgs/logos/shovel-knight-logo.png",
-  "src/assets/imgs/character/shovel-knight.png",
+  "src/assets/imgs/character/shovel-knight.webp",
   "src/assets/imgs/background-imgs/shovel-knight-background.jpg",
   "26 de junho de 2014",
   "https://store.steampowered.com/app/250760/Shovel_Knight_Treasure_Trove/",
@@ -341,6 +357,9 @@ const shovelKnight = new Game(
     "Shovel Knight é celebrado por sua jogabilidade precisa e divertida.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png, src/assets/imgs/game-platforms/Playstation logo.png, src/assets/imgs/game-platforms/xbox-logo.png, src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    "src/assets/imgs/game-platforms/Steam-logo.png",
+    "src/assets/imgs/game-platforms/Playstation logo.png",
+    "src/assets/imgs/game-platforms/xbox-logo.png",
+    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
   ]
 );

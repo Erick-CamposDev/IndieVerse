@@ -9,10 +9,12 @@ const btnsMobile = document.querySelectorAll(".mobileTabBtn");
 
 menuBtn.addEventListener("click", () => {
   menuMobile.classList.toggle("active");
+  errorMessageMobile.innerHTML = "";
 });
 
 closeBtn.addEventListener("click", () => {
   menuMobile.classList.remove("active");
+  errorMessageMobile.innerHTML = "";
 });
 
 tabModalBtn.addEventListener("click", () => {

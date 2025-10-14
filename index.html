@@ -44,7 +44,9 @@
             placeholder="Digite o nome do jogo"
             autocomplete="off"
           />
-          <button class="search-btn"><i class="bi bi-search"></i></button>
+          <button onclick="showInfoBySearch()" class="search-btn">
+            <i class="bi bi-search"></i>
+          </button>
         </div>
         <div class="message"></div>
       </div>
@@ -83,13 +85,14 @@
             placeholder="Digite o nome do jogo"
             autocomplete="off"
           />
-          <button class="search-btn-mobile">
+          <button onclick="showInfoBySearch()" class="search-btn-mobile">
             <i class="bi bi-search"></i>
           </button>
           <div class="message-mobile"></div>
         </div>
         <div class="steam-mobile">
           <a
+            class="steam-mobile-link"
             href="https://store.steampowered.com/?l=portuguese"
             target="_blank"
           >
@@ -103,7 +106,7 @@
         </div>
       </nav>
     </div>
-    <main>
+    <main class="main-container">
       <section class="carrossel-container">
         <div class="game-info">
           <div class="game-logo-container">
@@ -167,7 +170,7 @@
         </div>
         <div class="modal-content" id="content1">
           <div class="game-title">
-            <h2>HOLLOW KNIGHT</h2>
+            <h2 id="gameTitle">HOLLOW KNIGHT</h2>
             <div class="creator-container">
               <h3>Desenvolvido por:</h3>
               <img
