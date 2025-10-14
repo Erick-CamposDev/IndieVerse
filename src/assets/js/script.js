@@ -25,3 +25,5 @@ tabBtns.forEach((button, i) => {
     });
   });
 });
+
+const games = [];
