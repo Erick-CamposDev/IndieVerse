@@ -87,8 +87,10 @@ function showInfoBySearch() {
   );
 
   if (gameFound) {
-    gameLogo.src = gameFound.logo;
-    gameCharacter.src = gameFound.character;
+    gameLogo.src = gameFound.logo.url;
+    gameLogo.alt = gameFound.logo.alt;
+    gameCharacter.src = gameFound.character.url;
+    gameCharacter.alt = gameFound.character.alt;
     gameType.innerHTML = `<h2>${gameFound.type}</h2>`;
     gameDescription.innerHTML = `<p>${gameFound.description}</p>`;
     main.style.backgroundImage = `url(${gameFound.background})`;
@@ -113,13 +115,15 @@ function modalChange(game) {
   //CONTÉUDO 1
   const platforms = game.platforms.map((platform) => {
     const img = document.createElement("img");
-    img.src = `${platform}`;
+    img.src = `${platform.url}`;
+    img.alt = `${platform.alt}`;
     img.classList.add("platform-logos");
     platformList.appendChild(img);
   });
 
   gameTitle.innerHTML = `<h2>${game.name}</h2>`;
-  creator.src = `${game.creatorLogo}`;
+  creator.src = `${game.creatorLogo.url}`;
+  creator.alt = `${game.creatorLogo.alt}`;
   dataLaunch.innerText = `${game.data}`;
   gameTypeModal.innerText = `${game.type}`;
   gameContent.innerHTML = `<h3>História:</h3>

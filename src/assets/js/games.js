@@ -159,10 +159,6 @@ const undertale = new Game(
       alt: "Logo oficial da Playstation",
     },
     {
-      url: "src/assets/imgs/game-platforms/xbox-logo.png",
-      alt: "Logo oficial do Xbox",
-    },
-    {
       url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
       alt: "Logo oficial do Nintendo Switch",
     },
@@ -225,10 +221,6 @@ const deltarune = new Game(
     {
       url: "src/assets/imgs/game-platforms/Playstation logo.png",
       alt: "Logo oficial da Playstation",
-    },
-    {
-      url: "src/assets/imgs/game-platforms/xbox-logo.png",
-      alt: "Logo oficial do Xbox",
     },
     {
       url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
