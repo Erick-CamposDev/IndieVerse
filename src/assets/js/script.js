@@ -29,6 +29,12 @@ const dataLaunch = document.getElementById("dataLaunch");
 const gameTypeModal = document.getElementById("gameType");
 const platformList = document.getElementById("platform-list");
 const gameContent = document.querySelector(".game-content");
+const gameplayContent = document.querySelector(".gameplay-content");
+const gameplayList = document.querySelector(".gameplay-list");
+const upperAward = document.querySelector(".upper-award-content");
+const awardList = document.querySelector(".award-list");
+const legacy = document.querySelector(".game-legacy");
+const curiosities = document.querySelector(".curiosities");
 
 function openModal() {
   modal.style.display = "flex";
@@ -95,8 +101,13 @@ function showInfoBySearch() {
 }
 
 function modalChange(game) {
+  //RESET DE TÍTULOS
   platformList.innerHTML = "<h3>Plataformas:</h3>";
+  gameplayList.innerHTML = "<h3>⚔️ Principais elementos da jogabilidade:</h3>";
+  awardList.innerHTML = "<h3>🥇 Principais reconhecimentos:</h3>";
+  curiosities.innerHTML = "<h3>💡 Curiosidades</h3>";
 
+  //CONTÉUDO 1
   const platforms = game.platforms.map((platform) => {
     const img = document.createElement("img");
     img.src = `${platform}`;
@@ -110,6 +121,45 @@ function modalChange(game) {
   gameTypeModal.innerText = `${game.type}`;
   gameContent.innerHTML = `<h3>História:</h3>
                            <p>${game.history}</p>`;
+
+  //CONTEÚDO 2
+  gameplayContent.innerHTML = `<h3>Jogabilidade:</h3>
+                               <p>${game.gameplayDesc}</p>`;
+  const ul = document.createElement("ul");
+  game.gameplayElements.map((element) => {
+    const gameplayItem = document.createElement("li");
+    gameplayItem.textContent = `${element}`;
+    ul.appendChild(gameplayItem);
+  });
+  gameplayList.appendChild(ul);
+
+  //CONTEUDO 3
+  upperAward.innerHTML = `<h3>🏆 Prêmios e reconhecimentos</h3>
+                          <p>${game.awardsDesc}</p>`;
+  const awardUl = document.createElement("ul");
+  game.awards.map((award) => {
+    const awardLi = document.createElement("li");
+    awardLi.textContent = `${award}`;
+    awardUl.appendChild(awardLi);
+  });
+  awardList.appendChild(awardUl);
+  legacy.innerHTML = `<h3>⭐ Legado:</h3>
+                      <p>${game.legacy}</p>`;
+
+  //CONTEUDO 4
+  const curiositiesUl = document.createElement("ul");
+  game.curiositiesTitle.map((title, i) => {
+    const curiositiesLi = document.createElement("li");
+    const curiositiesSpan = document.createElement("Span");
+    const curiositiesP = document.createElement("p");
+    curiositiesSpan.textContent = `${title}`;
+    curiositiesP.textContent = `${game.curiosities[i]}`;
+
+    curiositiesLi.appendChild(curiositiesSpan);
+    curiositiesLi.appendChild(curiositiesP);
+    curiositiesUl.appendChild(curiositiesLi);
+  });
+  curiosities.appendChild(curiositiesUl);
 }
 
 gameBar.addEventListener("keydown", (e) => {
