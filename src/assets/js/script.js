@@ -64,11 +64,8 @@ const games = [
 function showInfoBySearch() {
   const searchValue = gameBar.value || gameBarMobile.value;
 
-  errorMessage.innerHTML = "";
-  errorMessage.style.color = "#0a0a0a";
-
-  errorMessageMobile.innerHTML = "";
-  errorMessageMobile.style.color = "#0a0a0a";
+  resetToDefault(errorMessage);
+  resetToDefault(errorMessageMobile);
 
   if (searchValue === "" || !isNaN(searchValue.value)) {
     showError("JOGO NÃO ENCONTRADO!");
@@ -76,9 +73,10 @@ function showInfoBySearch() {
     return;
   }
 
-  const steamLinks = steam || steamMobile;
+  const steamLinks = [steam, steamMobile];
   const gameFound = games.find(
-    (game) => game.name.trim().toUpperCase() === searchValue.toUpperCase()
+    (game) =>
+      game.name.trim().toUpperCase() === searchValue.trim().toUpperCase()
   );
 
   if (gameFound) {
@@ -87,7 +85,9 @@ function showInfoBySearch() {
     gameType.innerHTML = `<h2>${gameFound.type}</h2>`;
     gameDescription.innerHTML = `<p>${gameFound.description}</p>`;
     main.style.backgroundImage = `url(${gameFound.background})`;
-    steamLinks.href = `${gameFound.url}`;
+    steamLinks.forEach((url) => {
+      url.href = `${gameFound.url}`;
+    });
     modalChange(gameFound);
   } else {
     showError("JOGO NÃO ENCONTRADO!");
@@ -95,7 +95,7 @@ function showInfoBySearch() {
 }
 
 function modalChange(game) {
-  platformList.innerHTML = "";
+  platformList.innerHTML = "<h3>Plataformas:</h3>";
 
   const platforms = game.platforms.map((platform) => {
     const img = document.createElement("img");
@@ -112,6 +112,14 @@ function modalChange(game) {
                            <p>${game.history}</p>`;
 }
 
+gameBar.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    showInfoBySearch();
+  } else {
+    return;
+  }
+});
+
 function showInfo() {}
 
 function showError(msg) {
@@ -122,4 +130,9 @@ function showError(msg) {
 function showErrorMobile(msg) {
   errorMessageMobile.innerHTML = `<p>${msg}</p>`;
   errorMessageMobile.style.color = "#ff0000";
+}
+
+function resetToDefault(element) {
+  element.innerHTML = "";
+  element.style.color = "#0a0a0a";
 }
