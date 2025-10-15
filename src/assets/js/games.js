@@ -27,12 +27,21 @@ class Game{
 const hollowKnight = new Game(
   "Hollow Knight",
   "Metroidvania / Ação e Aventura / Plataforma 2D",
-  "src/assets/imgs/logos/Hollow Knight logo.webp",
-  "src/assets/imgs/character/The_knight.webp",
+  {
+    url: "src/assets/imgs/logos/Hollow Knight logo.webp",
+    alt: "Imagem da logo oficial de Hollow Knight",
+  },
+  {
+    url: "src/assets/imgs/character/The_knight.webp",
+    alt: "Imagem do Knight de Hollow Knight",
+  },
   "src/assets/imgs/background-imgs/HollowKnight3.avif",
   "24 de fevereiro de 2017",
   "https://store.steampowered.com/app/367520/Hollow_Knight/",
-  "src/assets/imgs/creator-img/team-cherry-logo.png",
+  {
+    url: "src/assets/imgs/creator-img/team-cherry-logo.png",
+    alt: "Imagem da Team Cherry desenvolvedora de Hollow Knight",
+  },
   "Hollow Knight é um jogo de ação e aventura no estilo Metroidvania, desenvolvido pela Team Cherry. Ele se passa em Hallownest, um vasto reino subterrâneo em ruínas, habitado por insetos e criaturas misteriosas. O jogador controla um cavaleiro silencioso que explora esse mundo interconectado, enfrentando inimigos desafiadores, chefes intensos e descobrindo segredos ocultos enquanto adquire novas habilidades que permitem acessar novas áreas.",
   "Em Hollow Knight, você controla um pequeno guerreiro silencioso que chega ao Reino de Hallownest, um vasto mundo subterrâneo que está em ruínas. Esse reino foi, há muito tempo, uma civilização próspera de insetos inteligentes, mas acabou sendo destruído por uma infecção misteriosa que enlouquece os habitantes. Explorando cavernas, cidades abandonadas e templos antigos, o Cavaleiro busca entender o que aconteceu com Hallownest e qual é o seu papel nesse destino trágico. Ao longo da jornada, ele descobre segredos sobre o Rei Pálido, o Vazio, e sobre outros seres criados para conter a infecção — incluindo ele mesmo.",
   "Hollow Knight é um metroidvania 2D focado em exploração, combate e progressão por habilidades. O jogador controla um pequeno cavaleiro em um vasto e interconectado reino subterrâneo chamado Hallownest, repleto de segredos, inimigos e chefes desafiadores. A movimentação é fluida e precisa, combinando plataformas com batalhas corpo a corpo utilizando um prego (arma principal do protagonista). Conforme o jogador avança, novas habilidades — como o Dash, o Wall Jump e o Double Jump — permitem acessar áreas antes inacessíveis, incentivando a exploração constante do mapa. Além do combate direto, o jogo conta com um sistema de Charms (Amuletos) que personalizam o estilo de jogo, oferecendo vantagens como cura mais rápida, aumento de dano ou melhorias na mobilidade. Os inimigos possuem padrões de ataque variados, exigindo atenção e estratégia. A dificuldade é desafiadora, mas justa, recompensando a paciência e a habilidade do jogador. O progresso é salvo em bancos e bancos de descanso (Benches), e ao morrer, o jogador precisa retornar ao local da morte para recuperar sua Shade (sombra) e os Geo (moeda do jogo).",
@@ -72,10 +81,22 @@ const hollowKnight = new Game(
     "O projeto começou como uma campanha no Kickstarter em 2014, arrecadando cerca de US$ 57 mil, valor relativamente baixo para a grandiosidade do resultado final.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png",
-    "src/assets/imgs/game-platforms/Playstation logo.png",
-    "src/assets/imgs/game-platforms/xbox-logo.png",
-    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    {
+      url: "src/assets/imgs/game-platforms/Steam-logo.png",
+      alt: "Logo oficial da Steam",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/Playstation logo.png",
+      alt: "Logo oficial da Playstation",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/xbox-logo.png",
+      alt: "Logo oficial do Xbox",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+      alt: "Logo oficial do Nintendo Switch",
+    },
   ]
 );
 
@@ -120,9 +141,22 @@ const undertale = new Game(
     "O final muda drasticamente dependendo de suas escolhas durante o jogo.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png",
-    "src/assets/imgs/game-platforms/Playstation logo.png",
-    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    {
+      url: "src/assets/imgs/game-platforms/Steam-logo.png",
+      alt: "Logo oficial da Steam",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/Playstation logo.png",
+      alt: "Logo oficial da Playstation",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/xbox-logo.png",
+      alt: "Logo oficial do Xbox",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+      alt: "Logo oficial do Nintendo Switch",
+    },
   ]
 );
 
@@ -166,9 +200,22 @@ const deltarune = new Game(
     "O sistema de combate agora inclui defesa ativa, tornando as batalhas mais dinâmicas.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png",
-    "src/assets/imgs/game-platforms/Playstation logo.png",
-    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    {
+      url: "src/assets/imgs/game-platforms/Steam-logo.png",
+      alt: "Logo oficial da Steam",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/Playstation logo.png",
+      alt: "Logo oficial da Playstation",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/xbox-logo.png",
+      alt: "Logo oficial do Xbox",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+      alt: "Logo oficial do Nintendo Switch",
+    },
   ]
 );
 
@@ -213,10 +260,22 @@ const silksong = new Game(
     "Mais de 150 novos inimigos prometem variedade e desafio.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png",
-    "src/assets/imgs/game-platforms/Playstation logo.png",
-    "src/assets/imgs/game-platforms/xbox-logo.png",
-    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    {
+      url: "src/assets/imgs/game-platforms/Steam-logo.png",
+      alt: "Logo oficial da Steam",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/Playstation logo.png",
+      alt: "Logo oficial da Playstation",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/xbox-logo.png",
+      alt: "Logo oficial do Xbox",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+      alt: "Logo oficial do Nintendo Switch",
+    },
   ]
 );
 
@@ -261,10 +320,22 @@ const celeste = new Game(
     "Há desafios extras para quem busca mais dificuldade.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png",
-    "src/assets/imgs/game-platforms/Playstation logo.png",
-    "src/assets/imgs/game-platforms/xbox-logo.png",
-    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    {
+      url: "src/assets/imgs/game-platforms/Steam-logo.png",
+      alt: "Logo oficial da Steam",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/Playstation logo.png",
+      alt: "Logo oficial da Playstation",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/xbox-logo.png",
+      alt: "Logo oficial do Xbox",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+      alt: "Logo oficial do Nintendo Switch",
+    },
   ]
 );
 
@@ -309,10 +380,22 @@ const cuphead = new Game(
     "Cuphead é conhecido por sua dificuldade elevada, mas recompensadora.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png",
-    "src/assets/imgs/game-platforms/Playstation logo.png",
-    "src/assets/imgs/game-platforms/xbox-logo.png",
-    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    {
+      url: "src/assets/imgs/game-platforms/Steam-logo.png",
+      alt: "Logo oficial da Steam",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/Playstation logo.png",
+      alt: "Logo oficial da Playstation",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/xbox-logo.png",
+      alt: "Logo oficial do Xbox",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+      alt: "Logo oficial do Nintendo Switch",
+    },
   ]
 );
 
@@ -357,9 +440,21 @@ const shovelKnight = new Game(
     "Shovel Knight é celebrado por sua jogabilidade precisa e divertida.",
   ],
   [
-    "src/assets/imgs/game-platforms/Steam-logo.png",
-    "src/assets/imgs/game-platforms/Playstation logo.png",
-    "src/assets/imgs/game-platforms/xbox-logo.png",
-    "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+    {
+      url: "src/assets/imgs/game-platforms/Steam-logo.png",
+      alt: "Logo oficial da Steam",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/Playstation logo.png",
+      alt: "Logo oficial da Playstation",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/xbox-logo.png",
+      alt: "Logo oficial do Xbox",
+    },
+    {
+      url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+      alt: "Logo oficial do Nintendo Switch",
+    },
   ]
 );
