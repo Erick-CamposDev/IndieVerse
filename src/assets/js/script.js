@@ -68,6 +68,7 @@ const games = [
 ];
 
 function showInfoBySearch() {
+  const searchBar = gameBar || gameBarMobile;
   const searchValue = gameBar.value || gameBarMobile.value;
 
   resetToDefault(errorMessage);
@@ -95,6 +96,8 @@ function showInfoBySearch() {
       url.href = `${gameFound.url}`;
     });
     modalChange(gameFound);
+    searchBar.value = "";
+    searchBar.focus();
   } else {
     showError("JOGO NÃO ENCONTRADO!");
   }
