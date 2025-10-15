@@ -259,6 +259,7 @@ main::before {
   display: flex;
   align-items: center;
   margin: 1rem;
+  animation: fadeIn 1.5s ease-in forwards;
 }
 
 #gameLogo {
@@ -290,8 +291,15 @@ main::before {
   width: 90%;
 }
 
+.game-type,
+.game-description {
+  animation: slideRight 2s ease-in forwards;
+}
+
 .show-more-container {
   margin: 2rem 0 0 1rem;
+  opacity: 0;
+  animation: slideRight 2s ease-in 2s forwards;
 }
 
 #showMoreBtn {
@@ -662,6 +670,28 @@ footer {
   font-style: italic;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 @media (min-width: 280px) and (max-width: 425px) {
   .search-bar {
     display: none;
@@ -714,7 +744,7 @@ footer {
     transform: translateX(-50%);
   }
 
-  .carrossel-container {
+  .content-container {
     justify-content: center;
     align-items: center;
   }
@@ -786,6 +816,12 @@ footer {
   .game-type,
   .show-more-container .game-logo-container {
     margin: 0;
+  }
+
+  .game-description,
+  .game-type,
+  .show-more-container {
+    animation: fadeIn 2.5s ease-in-out forwards;
   }
 
   .game-content > p {

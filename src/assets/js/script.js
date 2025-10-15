@@ -177,7 +177,13 @@ gameBar.addEventListener("keydown", (e) => {
   }
 });
 
-function showInfo() {}
+gameBarMobile.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    showInfoBySearch();
+  } else {
+    return;
+  }
+});
 
 function showError(msg) {
   errorMessage.innerHTML = `<p>${msg}</p>`;
