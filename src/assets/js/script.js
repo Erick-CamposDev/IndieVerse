@@ -74,7 +74,7 @@ function showInfoBySearch() {
   resetToDefault(errorMessage);
   resetToDefault(errorMessageMobile);
 
-  if (searchValue === "" || !isNaN(searchValue.value)) {
+  if (searchValue === "" || !isNaN(searchValue)) {
     showError("JOGO NÃO ENCONTRADO!");
     showErrorMobile("JOGO NÃO ENCONTRADO!");
     return;
