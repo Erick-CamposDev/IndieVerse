@@ -297,6 +297,9 @@ main::before {
 }
 
 .show-more-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   margin: 2rem 0 0 1rem;
   opacity: 0;
   animation: slideRight 2s ease-in 2s forwards;
@@ -316,6 +319,32 @@ main::before {
   transition: all 0.3s ease-in;
 }
 
+#seeVideoBtn {
+  position: relative;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 2px solid #fafafa;
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 17px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+}
+
+#seeVideoBtn::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: #ff0000;
+  left: 0;
+  top: 0;
+  width: 0;
+  transition: all 0.3s ease-in;
+  z-index: -1;
+}
+
 #showMoreBtn::after {
   position: absolute;
   content: "";
@@ -328,6 +357,13 @@ main::before {
   z-index: -1;
 }
 
+#seeVideoBtn:hover {
+  border: 2px solid #6b0303;
+  transform: scale(1.05);
+  filter: brightness(1.2);
+  box-shadow: 5px 5px 12px #0a0a0a8e;
+}
+
 #showMoreBtn:hover {
   color: #0a0a0a;
   border: 2px solid #0a0a0a;
@@ -336,8 +372,16 @@ main::before {
   box-shadow: 5px 5px 12px #0a0a0a8e;
 }
 
+#seeVideoBtn:hover::after {
+  width: 100%;
+}
+
 #showMoreBtn:hover::after {
   width: 100%;
+}
+
+#seeVideoBtn:active {
+  opacity: 0.6;
 }
 
 #showMoreBtn:active {
