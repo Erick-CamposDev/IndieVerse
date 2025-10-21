@@ -107,3 +107,7 @@ ul > li {
 .mobileTabBtn {
   font-family: "Nunito";
 }
+
+.video-title > h2 {
+  font-family: "Archivo Black";
+}
