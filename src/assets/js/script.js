@@ -40,6 +40,7 @@ const upperAward = document.querySelector(".upper-award-content");
 const awardList = document.querySelector(".award-list");
 const legacy = document.querySelector(".game-legacy");
 const curiosities = document.querySelector(".curiosities");
+const videoContainer = document.querySelector(".video-container");
 
 function openModal(index, index2) {
   modal.style.display = "flex";
@@ -178,6 +179,9 @@ function modalChange(game) {
     curiositiesUl.appendChild(curiositiesLi);
   });
   curiosities.appendChild(curiositiesUl);
+
+  //MODAL DO VIDEO TRAILER
+  videoContainer.innerHTML = `${game.trailer}`;
 }
 
 gameBar.addEventListener("keydown", (e) => {
