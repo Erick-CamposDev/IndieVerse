@@ -2,7 +2,7 @@
 class Game{
     constructor(name, type, logo, character, background, dataLaunch, steamUrl, creatorLogo,
         description, history, gameplayDesc, gameplayElements, awardsDesc, awards,
-        legacy, title, curiosities, platforms){
+        legacy, title, curiosities, platforms, trailer){
             this.name = name
             this.type = type
             this.logo = logo
@@ -21,6 +21,7 @@ class Game{
             this.curiositiesTitle = title
             this.curiosities = curiosities
             this.platforms = platforms
+            this.trailer = trailer
         }
 }
 
@@ -97,7 +98,19 @@ const hollowKnight = new Game(
       url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
       alt: "Logo oficial do Nintendo Switch",
     },
-  ]
+  ],
+  `
+  <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/UAO2urG23S4?si=m_p9Ior8vsi1OBYI"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  `
 );
 
 const undertale = new Game(
@@ -162,7 +175,19 @@ const undertale = new Game(
       url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
       alt: "Logo oficial do Nintendo Switch",
     },
-  ]
+  ],
+  `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/1Hojv0m3TqA?si=zxe2fL3cBH_SeYcw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    `
 );
 
 const deltarune = new Game(
@@ -226,7 +251,19 @@ const deltarune = new Game(
       url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
       alt: "Logo oficial do Nintendo Switch",
     },
-  ]
+  ],
+  `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/yDzgiGdekas?si=nKxIdIEU7ipwzDgs"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  `
 );
 
 const silksong = new Game(
@@ -295,7 +332,19 @@ const silksong = new Game(
       url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
       alt: "Logo oficial do Nintendo Switch",
     },
-  ]
+  ],
+  `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/6XGeJwsUP9c?si=Dn0rAulK8byJ0BCD"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    `
 );
 
 const celeste = new Game(
@@ -364,7 +413,19 @@ const celeste = new Game(
       url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
       alt: "Logo oficial do Nintendo Switch",
     },
-  ]
+  ],
+  `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/FqBj2IGg6Uw?si=m7P4q_e9CEZrEPaQ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  `
 );
 
 const cuphead = new Game(
@@ -433,7 +494,19 @@ const cuphead = new Game(
       url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
       alt: "Logo oficial do Nintendo Switch",
     },
-  ]
+  ],
+  `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/NN-9SQXoi50?si=X0NzuokmzfkC4dK1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  `
 );
 
 const shovelKnight = new Game(
@@ -502,5 +575,17 @@ const shovelKnight = new Game(
       url: "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
       alt: "Logo oficial do Nintendo Switch",
     },
-  ]
+  ],
+  `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/jo-uuawy9Ok?si=fZ3oo2Xs6IhjLQfm"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  `
 );
