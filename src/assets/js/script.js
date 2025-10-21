@@ -2,6 +2,11 @@ const openModalBtn = document.getElementById("showMoreBtn");
 const closeModalBtn = document.getElementById("closeModalBtn");
 const modal = document.querySelector(".modal-bg");
 
+const modals = document.querySelectorAll(".modal");
+
+const openVideoModal = document.getElementById("seeVideoBtn");
+const closeVideoModalBtn = document.getElementById("closeVideoModalBtn");
+
 const tabBtns = document.querySelectorAll(".tabBtns");
 const modalContents = document.querySelectorAll(".modal-content");
 
@@ -36,13 +41,19 @@ const awardList = document.querySelector(".award-list");
 const legacy = document.querySelector(".game-legacy");
 const curiosities = document.querySelector(".curiosities");
 
-function openModal() {
+function openModal(index, index2) {
   modal.style.display = "flex";
+  modals[index].style.display = "flex";
+  modals[index2].style.display = "none";
 }
 
 function closeModal() {
   modal.style.display = "none";
   tabMenu.classList.remove("active");
+}
+
+function closeVideoModal() {
+  modal.style.display = "none";
 }
 
 tabBtns.forEach((button, i) => {
