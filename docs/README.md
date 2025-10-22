@@ -50,20 +50,20 @@
 ## 🖼️ Imagens do Projeto
 
 **Página principal do jogo:**
-![IndieVerse Screenshot 1](https://link-para-sua-imagem1.png)
+![IndieVerse Screenshot 1]()
 
 **Modal de informações do jogo:**
-![IndieVerse Screenshot 2](https://link-para-sua-imagem2.png)
+![IndieVerse Screenshot 2]()
 
 **Modal do trailer do jogo:**
-![IndieVerse Screenshot 3](https://link-para-sua-imagem3.png)
+![IndieVerse Screenshot 3]()
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5
-- CSS3 (Mobile First, Flexbox e Grid)
+- CSS3 (Mobile First, Flexbox)
 - JavaScript (ES6, Programação Orientada a Objetos)
 
 ---
@@ -75,3 +75,9 @@
 - Novos jogos serão adicionados futuramente ao catálogo.
 
 - A navegação e a responsividade são focadas principalmente para dispositivos móveis, garantindo uma experiência otimizada em smartphones.
+
+---
+
+## 📎 Deploy
+
+![Confira o projeto!]()
