@@ -1100,6 +1100,19 @@ footer {
   .tab-buttons {
     gap: 0.85rem;
   }
+
+  #seeVideoBtn:hover,
+  #showMoreBtn:hover {
+    border: none;
+    transform: none;
+    filter: none;
+    box-shadow: none;
+  }
+
+  #seeVideoBtn:hover::after,
+  #showMoreBtn:hover::after {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1100px) {
