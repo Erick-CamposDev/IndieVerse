@@ -50,13 +50,13 @@
 ## 🖼️ Imagens do Projeto
 
 **Página principal do jogo:**
-![IndieVerse Screenshot 1]()
+![IndieVerse Screenshot 1](/src/assets/imgs/project-imgs/main-interface.jpg)
 
 **Modal de informações do jogo:**
-![IndieVerse Screenshot 2]()
+![IndieVerse Screenshot 2](/src/assets/imgs/project-imgs/info-modal.jpg)
 
 **Modal do trailer do jogo:**
-![IndieVerse Screenshot 3]()
+![IndieVerse Screenshot 3](/src/assets/imgs/project-imgs/video-modal.jpg)
 
 ---
 
