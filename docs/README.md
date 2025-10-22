@@ -80,7 +80,7 @@
 
 ## 📎 Deploy
 
-![Confira o projeto!](https://erick-camposdev.github.io/IndieVerse/)
+[Confira o projeto!](https://erick-camposdev.github.io/IndieVerse/)
 
 ---
 
