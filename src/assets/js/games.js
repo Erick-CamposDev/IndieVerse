@@ -198,7 +198,7 @@ const deltarune = new Game(
     alt: "Logo oficial do Deltarune",
   },
   {
-    url: "src/assets/imgs/character/kris-deltarune.webp",
+    url: "src/assets/imgs/character/Kris-Guitar.webp",
     alt: "Imagem de Kris de Deltarune",
   },
   "src/assets/imgs/background-imgs/deltarune-bg.jpg",
@@ -436,7 +436,7 @@ const cuphead = new Game(
     alt: "Logo oficial de Cuphead",
   },
   {
-    url: "src/assets/imgs/character/Cuphead.webp",
+    url: "src/assets/imgs/character/Cuphead-2.webp",
     alt: "Imagem do Cuphead protagonista do jogo cuphead",
   },
   "src/assets/imgs/background-imgs/cuphead-bg.avif",
