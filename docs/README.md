@@ -4,6 +4,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![HTML5](https://img.shields.io/badge/HTML5-orange)
 ![CSS3](https://img.shields.io/badge/CSS3-blue)
+![JSON](https://img.shields.io/badge/JSON-lightgrey)
 ![Mobile Friendly](https://img.shields.io/badge/Responsivo-Mobile%20First-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blueviolet)
 
@@ -18,7 +19,7 @@
 - **Responsivo**: Mobile first, funcionando perfeitamente em smartphones, tablets e desktops.
 - Estrutura de dados **orientada a objetos**:
   - A classe `Game` armazena todas as informações de cada jogo via construtor.
-  - Instâncias de jogos são armazenadas em um **array no script principal**.
+  - Todos os dados dos jogos estão armazendados em um **JSON Interno** no projeto.
 - **Dois modals**:
   1. Modal principal com **4 tabs**:
      - Sobre
@@ -35,10 +36,11 @@
 
 - src/
   - assets/
+    - data/
+      - games.json — JSON com todos os dados presentes de cada jogo
     - imgs/ (logos, personagens, backgrounds, plataformas)
     - js/
-      - games.js — classe Game e instâncias
-      - script.js — lógica principal (search, atualizar UI, modals) e array de jogos
+      - script.js — lógica principal (search, atualizar UI, modals) e fetch ao JSON
       - mobile.js — comportamento do menu e abas mobile
     - styles/
       - style.css — estilos principais (mobile-first)
@@ -64,7 +66,8 @@
 
 - HTML5
 - CSS3 (Mobile First, Flexbox)
-- JavaScript (ES6, Programação Orientada a Objetos)
+- JavaScript (ES6, AJAX)
+- JSON
 
 ---
 
