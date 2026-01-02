@@ -237,7 +237,8 @@
       "awards": [
         "🏅 Destaque em eventos como E3 e Nintendo Direct.",
         "🏅 Altamente aguardado pela comunidade gamer.",
-        "🏅 Indicado a prêmios de jogo mais esperado."
+        "🏅 Indicado a prêmios de jogo mais esperado.",
+        "🏅 Melhor jogo de Ação/Aventura - The Game Awards (2025)."
       ],
       "legacy": "Silksong elevou ainda mais o padrão de qualidade estabelecido por Hollow Knight, com novidades em gameplay, arte e trilha sonor além de mais de 40 chefes diferentes para o jogador enfrentar em seu jogo.",
       "curiositiesTitle": [
@@ -480,6 +481,81 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jo-uuawy9Ok?si=fZ3oo2Xs6IhjLQfm\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "name": "Terraria",
+      "type": "Plataforma / Aventura / Indie",
+      "logo": {
+        "url": "src/assets/imgs/logos/terraria-ofc-logo.png",
+        "alt": "Logo oficial de Terraria"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/terrarian.webp",
+        "alt": "Imagem do Terrarian"
+      },
+      "background": "src/assets/imgs/background-imgs/terraria-background.png",
+      "data": "16 de maio de 2011",
+      "url": "https://store.steampowered.com/app/105600/Terraria/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/relogic-ofc-logo.webp",
+        "alt": "Logo da Re Logic desenvolvedora de Terraria"
+      },
+      "description": "Terraria é um jogo 2D de ação, aventura e sobrevivência em mundo aberto, onde o jogador explora, constrói, minera, enfrenta inimigos e chefes em um mapa gerado aleatoriamente. Com forte foco em progressão, crafting e exploração, o jogo permite jogar sozinho ou em multiplayer, oferecendo grande liberdade e variedade de conteúdos.",
+      "history": "o universo de Terraria, o mundo já foi um lugar equilibrado e protegido, governado por forças antigas ligadas à natureza e à ordem. Os Dríades, seres ancestrais, tiveram um papel fundamental nesse equilíbrio. Em algum momento, porém, uma entidade extremamente poderosa e maligna conhecida como Cthulhu ameaçou destruir tudo. Para impedir o colapso total do mundo, os dríades sacrificaram quase toda a sua raça para selar partes do poder de Cthulhu, enfraquecendo-o, mas não o destruindo completamente. Com o passar do tempo, esse selo começou a se romper. As partes corrompidas de Cthulhu deram origem a diversas criaturas e chefes, como o Olho de Cthulhu, o Cérebro de Cthulhu e outros monstros que representam fragmentos dessa antiga ameaça. Além disso, surgiram biomas corrompidos, como a Corrupção e o Crimson, que simbolizam a influência do mal se espalhando novamente pelo mundo.",
+      "gameplayDesc": "A jogabilidade de Terraria é baseada em liberdade total, progressão constante e mistura de vários gêneros em um único jogo. O jogador começa com poucos recursos e ferramentas simples, e a partir daí precisa explorar o mundo, que é gerado de forma procedural (cada mapa é diferente). A exploração envolve cavar o solo, descer para cavernas profundas, atravessar biomas variados (floresta, deserto, selva, neve, corrupção/crimson, subterrâneo, inferno, entre outros) e lidar com perigos ambientais e inimigos.",
+      "gameplayElements": [
+        "- Mundo aberto gerado aleatoriamente.",
+        "- Sistema profundo de crafting e progressão.",
+        "- Combate variado com diferentes estilos de jogo.",
+        "- Construção livre de bases e estruturas.",
+        "- Grande variedade de inimigos e chefes."
+      ],
+      "awardsDesc": "Terraria foi um jogo muito relevante, reconhecido principalmente pelo seu impacto, popularidade e influência no gênero sandbox, mais do que por prêmios formais.",
+      "awards": [
+        "🏅 Jogo Indie do Ano - Golden Joystick Awards (2013).",
+        "🏅 Melhor Jogo Indie - IGN Awards - 2013.",
+        "🏅 Jogo para Download do Ano - Spike Video Game Awards (2013).",
+        "🏅 Indicação a Jogo Indie do Ano - Destructoid Awards - (2013).",
+        "🏅 Reconhecimento da Comunidade Indie - Steam Community - (2021)."
+      ],
+      "legacy": "Terraria deixou um legado marcante ao influenciar jogos sandbox e independentes, mostrando que atualizações constantes, liberdade criativa e forte apoio da comunidade podem manter um jogo relevante por muitos anos.",
+      "curiositiesTitle": [
+        "👁️ Inspirado em uma entidade cósmica lendária.",
+        "🌑 O mundo muda drasticamente após um evento-chave.",
+        "🧙 NPCs têm preferências e relações entre si.",
+        "🔓 Muitos conteúdos ficam escondidos de propósito.",
+        "🕒 Um dos jogos indie mais longevos da história."
+      ],
+      "curiosities": [
+        "A história e vários chefes de Terraria são inspirados no mito de Cthulhu, uma entidade cósmica do horror.",
+        "Após derrotar a Parede de Carne, o mundo entra no Modo Difícil, alterando biomas, inimigos e desafios.",
+        "NPCs possuem gostos, biomas preferidos e até relacionamentos, afetando preços e felicidade.",
+        "Grande parte dos itens, eventos e segredos do jogo não é explicada, incentivando a descoberta.",
+        "Terraria recebeu suporte e atualizações constantes por mais de 10 anos após seu lançamento."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/xbox-logo.png",
+          "alt": "Logo oficial do Xbox"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/mobile-android-apple.png",
+          "alt": "Logo oficial do Android e IOS"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w7uOhFTrrq0?si=yMf0JFev67QZgeAn\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
     }
   ]
 }
