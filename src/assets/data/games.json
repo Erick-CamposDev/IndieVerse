@@ -1,0 +1,485 @@
+{
+  "games": [
+    {
+      "name": "Hollow Knight",
+      "type": "Metroidvania / Ação e Aventura / Plataforma 2D",
+      "logo": {
+        "url": "src/assets/imgs/logos/Hollow Knight logo.webp",
+        "alt": "Imagem da logo oficial de Hollow Knight"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/The_knight.webp",
+        "alt": "Imagem do Knight de Hollow Knight"
+      },
+      "background": "src/assets/imgs/background-imgs/HollowKnight3.avif",
+      "data": "24 de fevereiro de 2017",
+      "url": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/team-cherry-logo.png",
+        "alt": "Imagem da Team Cherry desenvolvedora de Hollow Knight"
+      },
+      "description": "Hollow Knight é um jogo de ação e aventura no estilo Metroidvania, desenvolvido pela Team Cherry. Ele se passa em Hallownest, um vasto reino subterrâneo em ruínas, habitado por insetos e criaturas misteriosas. O jogador controla um cavaleiro silencioso que explora esse mundo interconectado, enfrentando inimigos desafiadores, chefes intensos e descobrindo segredos ocultos enquanto adquire novas habilidades que permitem acessar novas áreas.",
+      "history": "Em Hollow Knight, você controla um pequeno guerreiro silencioso que chega ao Reino de Hallownest, um vasto mundo subterrâneo que está em ruínas. Esse reino foi, há muito tempo, uma civilização próspera de insetos inteligentes, mas acabou sendo destruído por uma infecção misteriosa que enlouquece os habitantes. Explorando cavernas, cidades abandonadas e templos antigos, o Cavaleiro busca entender o que aconteceu com Hallownest e qual é o seu papel nesse destino trágico. Ao longo da jornada, ele descobre segredos sobre o Rei Pálido, o Vazio, e sobre outros seres criados para conter a infecção — incluindo ele mesmo.",
+      "gameplayDesc": "Hollow Knight é um metroidvania 2D focado em exploração, combate e progressão por habilidades. O jogador controla um pequeno cavaleiro em um vasto e interconectado reino subterrâneo chamado Hallownest, repleto de segredos, inimigos e chefes desafiadores. A movimentação é fluida e precisa, combinando plataformas com batalhas corpo a corpo utilizando um prego (arma principal do protagonista). Conforme o jogador avança, novas habilidades — como o Dash, o Wall Jump e o Double Jump — permitem acessar áreas antes inacessíveis, incentivando a exploração constante do mapa. Além do combate direto, o jogo conta com um sistema de Charms (Amuletos) que personalizam o estilo de jogo, oferecendo vantagens como cura mais rápida, aumento de dano ou melhorias na mobilidade. Os inimigos possuem padrões de ataque variados, exigindo atenção e estratégia. A dificuldade é desafiadora, mas justa, recompensando a paciência e a habilidade do jogador. O progresso é salvo em bancos e bancos de descanso (Benches), e ao morrer, o jogador precisa retornar ao local da morte para recuperar sua Shade (sombra) e os Geo (moeda do jogo).",
+      "gameplayElements": [
+        "- Exploração não linear com múltiplos caminhos.",
+        "- Sistema de progressão por habilidades que desbloqueiam novas áreas.",
+        "- Combates desafiadores contra inimigos e chefes únicos.",
+        "- Personalização com Charms para adaptar o estilo de luta.",
+        "- Atmosfera imersiva, com trilha sonora e ambientação que reforçam o sentimento de solidão e descoberta."
+      ],
+      "awardsDesc": "Desde seu lançamento, Hollow Knight recebeu diversos prêmios e indicações por sua direção artística, trilha sonora e design de jogo, consolidando-se como um dos melhores jogos independentes de todos os tempos.",
+      "awards": [
+        "🏅 Melhor Jogo Independente - Australian Game Developer Awards (2017)",
+        "🏅 Excelência em Arte Visual - Indie Prize Europe (2017)",
+        "🏅 Melhor Jogo de Aventura/Plataforma - IGN Australia Select Awards (2017)",
+        "🏅 Indicado a Melhor Jogo Independente - Game Awards (2017)",
+        "🏅 Vencedor do “Player's Choice” - Steam Awards (2018)",
+        "💬 Amplamente listado em rankings de “Melhores Jogos Indie da Década” por sites como PC Gamer, GameSpot e Metacritic."
+      ],
+      "legacy": "Mesmo anos após o lançamento, Hollow Knight continua sendo referência em design e atmosfera dentro do gênero metroidvania, inspirando inúmeros títulos independentes. Seu sucesso também impulsionou o desenvolvimento de sua aguardada sequência, Hollow Knight: Silksong.",
+      "curiositiesTitle": [
+        "🐞 Inspirado em insetos:",
+        "🎨 Arte feita à mão:",
+        "🎵 Trilha sonora marcante:",
+        "💀 Morte com consequência:",
+        "⏱️ Desenvolvido por uma pequena equipe:",
+        "🕳️ Final alternativo:",
+        "🔥 Versão de estreia no Kickstarter:"
+      ],
+      "curiosities": [
+        "Quase todos os personagens e inimigos do jogo são baseados em insetos ou criaturas pequenas, o que combina com o tema do reino subterrâneo de Hallownest.",
+        "Toda a arte de Hollow Knight foi desenhada à mão pelo artista Ari Gibson, um dos fundadores da Team Cherry, o que dá ao jogo seu visual único e artesanal.",
+        "A música foi composta por Christopher Larkin, e é amplamente elogiada por criar emoção e imersão — especialmente em áreas como City of Tears e Greenpath.",
+        "Quando o jogador morre, ele deixa para trás sua Shade (sombra), que guarda o dinheiro (Geo) e parte da alma — uma ideia inspirada em Dark Souls.",
+        "Hollow Knight foi criado por apenas três pessoas principais, e mesmo assim entregou um dos jogos indies mais elogiados da geração.",
+        "O jogo possui vários finais, que variam de acordo com as ações do jogador e os chefes derrotados — incentivando múltiplas jogatinas.",
+        "O projeto começou como uma campanha no Kickstarter em 2014, arrecadando cerca de US$ 57 mil, valor relativamente baixo para a grandiosidade do resultado final."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/xbox-logo.png",
+          "alt": "Logo oficial do Xbox"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UAO2urG23S4?si=m_p9Ior8vsi1OBYI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "name": "Undertale",
+      "type": "RPG / Indie / Aventura",
+      "logo": {
+        "url": "src/assets/imgs/logos/Undertale-Logo.png",
+        "alt": "Imagem do logo de Undertale"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/frisk-undertale.webp",
+        "alt": "Imagem de Frisk de Undertale"
+      },
+      "background": "src/assets/imgs/background-imgs/castle-img-undertale.png",
+      "data": "15 de setembro de 2015",
+      "url": "https://store.steampowered.com/app/391540/Undertale/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/toby-fox.webp",
+        "alt": "Imagem do annoying dog como representação oficial do toby fox criador de undertale"
+      },
+      "description": "Undertale é um RPG inovador criado por Toby Fox, onde suas escolhas realmente importam. O jogo se passa em um mundo subterrâneo habitado por monstros, e você pode escolher poupar ou derrotar seus inimigos, influenciando profundamente a narrativa.",
+      "history": "A história acompanha uma criança humana que cai em um mundo subterrâneo habitado por monstros, isolado da superfície por uma barreira mágica. No início, a criança é acolhida por Toriel, uma criatura gentil que tenta protegê-la, mas logo precisa seguir sozinha em busca de uma saída. Durante essa jornada, o jogador conhece figuras cativantes como Sans, Papyrus, Undyne, Alphys, Mettaton e Asgore, cada um com sua própria história e motivações. Dependendo das escolhas do jogador, o enredo muda completamente, explorando temas como empatia, perdão e as consequências das ações. Undertale se destaca por quebrar a quarta parede e fazer o jogador refletir sobre suas decisões, transformando uma simples aventura em uma experiência emocional e memorável.",
+      "gameplayDesc": "Undertale é um jogo de RPG que combina elementos clássicos com mecânicas únicas de combate, onde o jogador pode escolher entre lutar ou poupar os inimigos. Durante as batalhas, o jogador controla um coração que representa sua alma e precisa desviar de ataques em um sistema que lembra jogos de tiro com muitos projéteis. Cada decisão influencia diretamente o rumo da história e o comportamento dos personagens, permitindo diferentes rotas, como a pacifista, onde ninguém é morto; a neutra, que mistura combate e misericórdia; e a genocida, onde todos os inimigos são eliminados. Além dos combates, o jogo apresenta diálogos cheios de humor, quebra-cabeças e interações marcantes com os personagens do subsolo.",
+      "gameplayElements": [
+        "- Sistema de combate inovador com opção de poupar inimigos.",
+        "- Narrativa ramificada com múltiplos finais.",
+        "- Personagens carismáticos e memoráveis.",
+        "- Trilha sonora composta por Toby Fox.",
+        "- Humor e emoção em equilíbrio perfeito."
+      ],
+      "awardsDesc": "Undertale foi aclamado pela crítica e pelo público, recebendo prêmios por sua originalidade, trilha sonora e narrativa.",
+      "awards": [
+        "🏅 Melhor Jogo Independente - The Game Awards (2015)",
+        "🏅 Excelência em Narrativa - SXSW Gaming Awards (2016)",
+        "🏅 Indicado a Melhor Trilha Sonora - BAFTA Games Awards (2016)"
+      ],
+      "legacy": "Undertale tornou-se um fenômeno cultural, influenciando diversos jogos indie e criando uma base de fãs apaixonada. Sua abordagem inovadora de narrativa e moralidade é referência até hoje.",
+      "curiositiesTitle": [
+        "🐶 Desenvolvido quase inteiramente por Toby Fox.",
+        "💀 Trilha sonora viral, com músicas como 'Megalovania'.",
+        "💬 Quebra da quarta parede frequente.",
+        "🕹️ Referências a RPGs clássicos.",
+        "👾 Final Pacifista, Neutro e Genocida."
+      ],
+      "curiosities": [
+        "Toby Fox criou quase todo o jogo sozinho, incluindo arte, música e programação.",
+        "A música 'Megalovania' tornou-se um meme e é reconhecida mundialmente.",
+        "O jogo frequentemente brinca com as expectativas do jogador, quebrando a quarta parede.",
+        "Há diversas referências a EarthBound e outros RPGs clássicos.",
+        "O final muda drasticamente dependendo de suas escolhas durante o jogo."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1Hojv0m3TqA?si=zxe2fL3cBH_SeYcw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "name": "Deltarune",
+      "type": "RPG / Indie / Aventura",
+      "logo": {
+        "url": "src/assets/imgs/logos/DeltaruneLogo.webp",
+        "alt": "Logo oficial do Deltarune"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/Kris-Guitar.webp",
+        "alt": "Imagem de Kris de Deltarune"
+      },
+      "background": "src/assets/imgs/background-imgs/deltarune-bg.jpg",
+      "data": "31 de outubro de 2018",
+      "url": "https://store.steampowered.com/app/1671210/DELTARUNE/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/toby-fox.webp",
+        "alt": "Imagem do annoying dog como representação oficial do toby fox criador de undertale"
+      },
+      "description": "Deltarune é o sucessor espiritual de Undertale, também criado por Toby Fox. O jogo apresenta um novo elenco de personagens e um sistema de combate aprimorado, mantendo o humor e a criatividade do original.",
+      "history": "O jogador assume o controle de Kris, um humano que vive em uma cidade habitada por monstros. Após um evento misterioso na escola, Kris e sua colega Susie caem em um mundo alternativo conhecido como Mundo das Trevas, onde encontram Ralsei, um príncipe que acredita que eles são heróis destinados a restaurar o equilíbrio entre a luz e a escuridão. A jornada do trio envolve enfrentar inimigos, resolver enigmas e formar laços de amizade enquanto tentam cumprir essa missão.",
+      "gameplayDesc": "A jogabilidade mantém o sistema de batalhas por turnos com a opção de lutar ou poupar os oponentes, mas agora em um formato de grupo, com cada personagem possuindo habilidades próprias. Durante os combates, o jogador também precisa desviar de ataques controlando um pequeno coração, e as escolhas de diálogo e ação influenciam a forma como os personagens reagem e se relacionam. Assim como em Undertale, Deltarune mistura momentos de humor e emoção, mas com uma narrativa mais linear e cinematográfica, focando no desenvolvimento dos personagens e nas relações entre eles. O jogo apresenta um tom mais misterioso e simbólico, deixando diversas perguntas em aberto sobre o passado e o destino de Kris, e promete expandir sua história em capítulos futuros.",
+      "gameplayElements": [
+        "- Sistema de combate aprimorado com mecânicas de defesa.",
+        "- Novos personagens e mundo expandido.",
+        "- Narrativa misteriosa e cheia de reviravoltas.",
+        "- Trilha sonora envolvente.",
+        "- Humor característico de Toby Fox."
+      ],
+      "awardsDesc": "Deltarune foi elogiado por sua narrativa, personagens e trilha sonora, mantendo o alto padrão de Undertale.",
+      "awards": [
+        "🏅 Indicado a Melhor Jogo Independente - Golden Joystick Awards (2019)",
+        "🏅 Destaque em trilha sonora - Vários sites especializados"
+      ],
+      "legacy": "Deltarune continua a expandir o universo de Undertale, com novos capítulos aguardados ansiosamente pela comunidade.",
+      "curiositiesTitle": [
+        "🌑 Capítulos lançados gratuitamente.",
+        "🎹 Trilha sonora composta por Toby Fox.",
+        "🦊 Referências e conexões com Undertale.",
+        "👥 Novos personagens carismáticos.",
+        "🕹️ Sistema de combate renovado."
+      ],
+      "curiosities": [
+        "Os capítulos de Deltarune são lançados gratuitamente até o capítulo 2 após isso o restante será pago.",
+        "A trilha sonora mantém o padrão de qualidade de Undertale.",
+        "Há diversas teorias sobre a ligação entre Deltarune e Undertale.",
+        "Personagens como Ralsei, Susie e Lancer conquistaram rapidamente os fãs.",
+        "O sistema de combate agora inclui defesa ativa, tornando as batalhas mais dinâmicas."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yDzgiGdekas?si=nKxIdIEU7ipwzDgs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "name": "Hollow Knight: Silksong",
+      "type": "Metroidvania / Ação e Aventura / Plataforma 2D",
+      "logo": {
+        "url": "src/assets/imgs/logos/hk-silksong-logo.webp",
+        "alt": "Logo oficial de Hollow Knight Silksong"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/hornet-hk-silksong.webp",
+        "alt": "Imagem de Hornet protagonista de Hollow Knight Silksong"
+      },
+      "background": "src/assets/imgs/background-imgs/silksong-bg.jpg",
+      "data": "4 de setembro de 2025",
+      "url": "https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/team-cherry-logo.png",
+        "alt": "Imagem da Team Cherry desenvolvedora de Hollow Knight"
+      },
+      "description": "Hollow Knight: Silksong é a sequência de Hollow Knight, desenvolvida pela Team Cherry. Desta vez, você controla Hornet, explorando um novo reino chamado Fiarlongo repleto de desafios, segredos e inimigos inéditos.",
+      "history": "Em Silksong, o jogador assume o controle de Hornet, a princesa protetora de Hallownest, que foi capturada e levada para o misterioso reino de Pharloom. Este novo mundo é descrito como 'assombrado por seda e música', oferecendo uma atmosfera única e repleta de segredos. Hornet deve enfrentar desafios e inimigos enquanto busca entender os motivos de sua captura e desvendar os mistérios que permeiam Fiarlongo.",
+      "gameplayDesc": "A jogabilidade de Silksong expande e refina os elementos do primeiro jogo. Hornet é mais ágil e versátil, equipada com uma agulha e linha que lhe conferem habilidades de combate e movimentação aprimoradas. O jogo apresenta mais de 165 inimigos diferentes, além de diversos NPCs que enriquecem a experiência. A exploração é incentivada por meio de um sistema de missões que recompensa o jogador com upgrades e habilidades adicionais. A dinâmica de combate é mais rápida e fluida, com Hornet podendo realizar ataques à distância e combos, proporcionando uma experiência mais intensa e estratégica.",
+      "gameplayElements": [
+        "- Nova protagonista com habilidades únicas.",
+        "- Mundo totalmente novo para explorar.",
+        "- Missões secundárias e NPCs inéditos.",
+        "- Combate mais rápido e acrobático.",
+        "- Trilha sonora original de Christopher Larkin."
+      ],
+      "awardsDesc": "Silksong foi um dos jogos mais aguardados do ano de 2025 e recebeu destaque em eventos e premiações mesmo antes do lançamento.",
+      "awards": [
+        "🏅 Destaque em eventos como E3 e Nintendo Direct.",
+        "🏅 Altamente aguardado pela comunidade gamer.",
+        "🏅 Indicado a prêmios de jogo mais esperado."
+      ],
+      "legacy": "Silksong elevou ainda mais o padrão de qualidade estabelecido por Hollow Knight, com novidades em gameplay, arte e trilha sonor além de mais de 40 chefes diferentes para o jogador enfrentar em seu jogo.",
+      "curiositiesTitle": [
+        "🕷️ Protagonista Hornet, com jogabilidade diferente do Cavaleiro.",
+        "🌎 Novo reino vertical, com mapas maiores.",
+        "🎶 Trilha sonora novamente por Christopher Larkin.",
+        "🦋 Mais de 150 novos inimigos.",
+        "🗺️ Sistema de missões e NPCs aprimorado."
+      ],
+      "curiosities": [
+        "Hornet é mais ágil e possui habilidades de seda exclusivas.",
+        "O mundo de Silksong é mais vertical e expansivo.",
+        "A trilha sonora é composta pelo mesmo artista de Hollow Knight.",
+        "O jogo terá um sistema de missões secundárias mais robusto.",
+        "Mais de 150 novos inimigos prometem variedade e desafio."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/xbox-logo.png",
+          "alt": "Logo oficial do Xbox"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6XGeJwsUP9c?si=Dn0rAulK8byJ0BCD\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "name": "Celeste",
+      "type": "Plataforma / Indie / Aventura",
+      "logo": {
+        "url": "src/assets/imgs/logos/Celeste-logo.png",
+        "alt": "Logo oficial de Celeste"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/madeline-celeste.png",
+        "alt": "Imagem de Madeline de Celeste"
+      },
+      "background": "src/assets/imgs/background-imgs/celeste-background.webp",
+      "data": "25 de janeiro de 2018",
+      "url": "https://store.steampowered.com/app/504230/Celeste/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/maddy-make-games.png",
+        "alt": "Imagem da logo de maddy make games desenvolvedora de Celeste"
+      },
+      "description": "Celeste é um jogo de plataforma desafiador sobre escalar a Montanha Celeste. Você controla Madeline em sua jornada de autodescoberta, enfrentando desafios físicos e emocionais em fases criativas e difíceis.",
+      "history": "Celeste tem como história a jornada de Madeline, uma jovem que decide escalar a montanha Celeste. Mais do que apenas enfrentar desafios físicos, ela precisa lidar com seus próprios medos, ansiedade e inseguranças. Durante a escalada, Madeline encontra uma versão sombria de si mesma, que representa suas dúvidas internas e momentos de fraqueza, sendo necessário confrontar essa parte de si para avançar. O jogo aborda temas como superação pessoal, saúde mental e autoaceitação, criando uma narrativa emocionalmente envolvente que conecta o jogador com a personagem.",
+      "gameplayDesc": "Na jogabilidade, Celeste é um jogo de plataforma 2D focado em precisão e timing. O jogador precisa dominar saltos, dashes rápidos e escaladas estratégicas para superar obstáculos desafiadores. Cada fase é desenhada para testar reflexos e paciência, mas checkpoints frequentes garantem que o progresso não se torne frustrante. Além disso, há coletáveis opcionais, como morangos, que oferecem desafios extras e recompensas para jogadores mais habilidosos. O design das fases combina dificuldade justa com sensação de conquista ao completar cada trecho.",
+      "gameplayElements": [
+        "- Plataforma precisa e desafiadora.",
+        "- Narrativa emocional e envolvente.",
+        "- Fases secretas e colecionáveis.",
+        "- Trilha sonora premiada.",
+        "- Acessibilidade com modos de assistência."
+      ],
+      "awardsDesc": "Celeste foi amplamente premiado por sua jogabilidade, narrativa e trilha sonora.",
+      "awards": [
+        "🏅 Melhor Jogo Independente - The Game Awards (2018)",
+        "🏅 Excelência em Jogabilidade - SXSW Gaming Awards (2018)",
+        "🏅 Indicado a Jogo do Ano - The Game Awards (2018)"
+      ],
+      "legacy": "Celeste é referência em acessibilidade e narrativa em jogos de plataforma, sendo celebrado por jogadores e crítica.",
+      "curiositiesTitle": [
+        "⛰️ Desenvolvido por uma pequena equipe.",
+        "🎶 Trilha sonora de Lena Raine.",
+        "🧠 Aborda temas de saúde mental.",
+        "🕹️ Modos de assistência para acessibilidade.",
+        "🏆 Desafios extras para jogadores hardcore."
+      ],
+      "curiosities": [
+        "O jogo foi criado por Maddy Makes Games, com uma equipe reduzida.",
+        "A trilha sonora é elogiada e composta por Lena Raine.",
+        "Celeste aborda temas como ansiedade e autossuperação.",
+        "Possui modos de assistência para tornar o jogo acessível.",
+        "Há desafios extras para quem busca mais dificuldade."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/xbox-logo.png",
+          "alt": "Logo oficial do Xbox"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FqBj2IGg6Uw?si=m7P4q_e9CEZrEPaQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "name": "Cuphead",
+      "type": "Run and Gun / Plataforma / Indie",
+      "logo": {
+        "url": "src/assets/imgs/logos/cuphead-logo.png",
+        "alt": "Logo oficial de Cuphead"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/Cuphead-2.webp",
+        "alt": "Imagem do Cuphead protagonista do jogo cuphead"
+      },
+      "background": "src/assets/imgs/background-imgs/cuphead-bg.avif",
+      "data": "29 de setembro de 2017",
+      "url": "https://store.steampowered.com/app/268910/Cuphead/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/StudioMDHR.webp",
+        "alt": "Logo do studio MDHR desenvolvedor de Cuphead"
+      },
+      "description": "Cuphead é um jogo de ação inspirado em desenhos animados dos anos 1930. Com visual e trilha sonora retrô, o jogo é conhecido por sua dificuldade elevada e batalhas contra chefes criativos.",
+      "history": "Cuphead apresenta uma história simples, mas cativante: os irmãos Cuphead e Mugman perdem uma aposta com o Diabo e precisam coletar as almas de outros devedores para salvar suas próprias vidas. A narrativa é reforçada pelo estilo visual único do jogo, inspirado em desenhos animados dos anos 1930, e pela trilha sonora de jazz, que dão personalidade e charme ao universo do jogo, tornando cada fase memorável mesmo que a história seja direta.",
+      "gameplayDesc": "Quanto à jogabilidade, Cuphead combina fases de plataforma com batalhas intensas contra chefes. O jogo exige reflexos rápidos e memorização de padrões, pois cada inimigo possui ataques e comportamentos específicos. O combate envolve tiros, ataques especiais e esquivas, e as fases de plataforma exigem precisão para superar obstáculos e inimigos menores. O jogo é famoso por sua dificuldade elevada, mas cada vitória traz grande sensação de conquista, e o estilo artístico torna cada batalha visualmente impressionante.",
+      "gameplayElements": [
+        "- Visual e animação inspirados nos anos 1930.",
+        "- Dificuldade elevada e recompensadora.",
+        "- Batalhas contra chefes criativos.",
+        "- Trilha sonora de jazz autêntica.",
+        "- Modo cooperativo local."
+      ],
+      "awardsDesc": "Cuphead foi premiado por sua direção de arte, animação e trilha sonora.",
+      "awards": [
+        "🏅 Melhor Direção de Arte - The Game Awards (2017)",
+        "🏅 Excelência em Animação - Annie Awards (2018)",
+        "🏅 Melhor Jogo Independente - BAFTA Games Awards (2018)"
+      ],
+      "legacy": "Cuphead tornou-se referência em animação e design de chefes, sendo um dos jogos indie mais reconhecidos mundialmente.",
+      "curiositiesTitle": [
+        "🎬 Animação feita à mão, quadro a quadro.",
+        "🎺 Trilha sonora gravada com banda ao vivo.",
+        "👹 Chefes inspirados em desenhos clássicos.",
+        "🕹️ Modo cooperativo para dois jogadores.",
+        "🔥 Dificuldade notória, mas justa."
+      ],
+      "curiosities": [
+        "A animação foi feita quadro a quadro, como nos desenhos antigos.",
+        "A trilha sonora foi gravada com uma banda de jazz ao vivo.",
+        "Os chefes são inspirados em personagens de desenhos animados clássicos.",
+        "O jogo pode ser jogado em modo cooperativo local.",
+        "Cuphead é conhecido por sua dificuldade elevada, mas recompensadora."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/xbox-logo.png",
+          "alt": "Logo oficial do Xbox"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NN-9SQXoi50?si=X0NzuokmzfkC4dK1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "name": "Shovel Knight",
+      "type": "Plataforma / Ação / Indie",
+      "logo": {
+        "url": "src/assets/imgs/logos/shovel-knight-logo.png",
+        "alt": "Logo oficial de Shovel Knight"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/shovel-knight.webp",
+        "alt": "Imagem do Shovel Knight protagonista de Shovel Knight"
+      },
+      "background": "src/assets/imgs/background-imgs/shovel-knight-background.jpg",
+      "data": "26 de junho de 2014",
+      "url": "https://store.steampowered.com/app/250760/Shovel_Knight_Treasure_Trove/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/Yacht_Club_Games.webp",
+        "alt": "Logo da Yacht Club Games desenvolvedora de Shovel Knight"
+      },
+      "description": "Shovel Knight é um jogo de plataforma retrô que homenageia clássicos dos anos 8 bits. Você controla o Cavaleiro da Pá, enfrentando inimigos e chefes em fases desafiadoras para salvar sua amada Shield Knight.",
+      "history": "Shovel Knight conta a história de um cavaleiro que usa uma pá como arma e embarca em uma missão para resgatar sua amada Shield Knight e derrotar a Orde das Enchantresses. A narrativa combina elementos de fantasia clássica, humor e homenagens aos jogos de 8 bits, criando um universo nostálgico, mas com personalidade própria e momentos cômicos que enriquecem a experiência do jogador.",
+      "gameplayDesc": "Na jogabilidade, Shovel Knight mistura plataforma 2D, exploração e combate. O jogador enfrenta inimigos usando a pá, descobre tesouros escondidos e enfrenta chefes com padrões distintos que exigem estratégia e atenção. O mapa do jogo permite progressão não-linear, com níveis e áreas que podem ser revisitados conforme novos itens ou habilidades são adquiridos. Além disso, o jogo combina desafios de plataforma clássicos com mecânicas de combate refinadas, tornando a experiência tanto acessível para iniciantes quanto satisfatória para jogadores que buscam desafios mais profundos.",
+      "gameplayElements": [
+        "- Visual retrô inspirado em 8 bits.",
+        "- Fases e chefes desafiadores.",
+        "- Trilha sonora nostálgica.",
+        "- Expansões gratuitas com novos personagens.",
+        "- Jogabilidade precisa e divertida."
+      ],
+      "awardsDesc": "Shovel Knight foi aclamado por sua jogabilidade, arte e trilha sonora, recebendo diversos prêmios.",
+      "awards": [
+        "🏅 Melhor Jogo Independente - The Game Awards (2014)",
+        "🏅 Excelência em Trilha Sonora - SXSW Gaming Awards (2015)",
+        "🏅 Indicado a Melhor Jogo de Plataforma - BAFTA Games Awards (2015)"
+      ],
+      "legacy": "Shovel Knight é um dos maiores sucessos indie, influenciando uma geração de jogos retrô modernos.",
+      "curiositiesTitle": [
+        "🛡️ Expansões gratuitas adicionam novos personagens e campanhas.",
+        "🎶 Trilha sonora composta por Jake Kaufman.",
+        "🕹️ Referências a clássicos dos anos 80.",
+        "👾 Visual e animação fiéis ao estilo 8 bits.",
+        "🏆 Premiado por jogabilidade e design."
+      ],
+      "curiosities": [
+        "O jogo recebeu várias expansões gratuitas, como Plague of Shadows e Specter of Torment.",
+        "A trilha sonora é composta por Jake Kaufman, com participação de Manami Matsumae.",
+        "Há diversas referências a jogos clássicos como Mega Man e Castlevania.",
+        "O visual e animação são fiéis ao estilo 8 bits, mas com melhorias modernas.",
+        "Shovel Knight é celebrado por sua jogabilidade precisa e divertida."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/xbox-logo.png",
+          "alt": "Logo oficial do Xbox"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jo-uuawy9Ok?si=fZ3oo2Xs6IhjLQfm\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ]
+}

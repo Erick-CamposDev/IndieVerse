@@ -42,6 +42,9 @@ const legacy = document.querySelector(".game-legacy");
 const curiosities = document.querySelector(".curiosities");
 const videoContainer = document.querySelector(".video-container");
 
+const loading = document.querySelector(".modal-loading-bg");
+const loadingMsg = document.querySelector(".loading-msg");
+
 function openModal(index, index2) {
   modal.style.display = "flex";
   modals[index].style.display = "flex";
@@ -69,19 +72,11 @@ tabBtns.forEach((button, i) => {
   });
 });
 
-const games = [
-  hollowKnight,
-  undertale,
-  deltarune,
-  silksong,
-  celeste,
-  cuphead,
-  shovelKnight,
-];
-
-function showInfoBySearch() {
+async function showInfoBySearch() {
   const searchBar = gameBar || gameBarMobile;
   const searchValue = gameBar.value || gameBarMobile.value;
+
+  const steamLinks = [steam, steamMobile];
 
   resetToDefault(errorMessage);
   resetToDefault(errorMessageMobile);
@@ -92,28 +87,39 @@ function showInfoBySearch() {
     return;
   }
 
-  const steamLinks = [steam, steamMobile];
-  const gameFound = games.find(
-    (game) =>
-      game.name.trim().toUpperCase() === searchValue.trim().toUpperCase()
-  );
+  loading.style.display = "flex";
 
-  if (gameFound) {
-    gameLogo.src = gameFound.logo.url;
-    gameLogo.alt = gameFound.logo.alt;
-    gameCharacter.src = gameFound.character.url;
-    gameCharacter.alt = gameFound.character.alt;
-    gameType.innerHTML = `<h2>${gameFound.type}</h2>`;
-    gameDescription.innerHTML = `<p>${gameFound.description}</p>`;
-    main.style.backgroundImage = `url(${gameFound.background})`;
-    steamLinks.forEach((url) => {
-      url.href = `${gameFound.url}`;
-    });
-    modalChange(gameFound);
-    searchBar.value = "";
-    searchBar.focus();
-  } else {
-    showError("JOGO NÃO ENCONTRADO!");
+  try {
+    const response = await fetch("src/assets/data/games.json");
+    const data = await response.json();
+
+    const gameFound = data.games.find((game) => game.name === searchValue);
+
+    if (gameFound) {
+      gameLogo.src = gameFound.logo.url;
+      gameLogo.alt = gameFound.logo.alt;
+      gameCharacter.src = gameFound.character.url;
+      gameCharacter.alt = gameFound.character.alt;
+      gameType.innerHTML = `<h2>${gameFound.type}</h2>`;
+      gameDescription.innerHTML = `<p>${gameFound.description}</p>`;
+      main.style.backgroundImage = `url(${gameFound.background})`;
+      steamLinks.forEach((url) => {
+        url.href = `${gameFound.url}`;
+      });
+      modalChange(gameFound);
+      searchBar.value = "";
+      searchBar.focus();
+
+      loadingMsg.textContent = "JOGO ENCONTRADO!";
+      setTimeout(() => {
+        loading.style.display = "none";
+        loadingMsg.textContent = "CARREGANDO...";
+      }, 1500);
+    } else {
+      showError("JOGO NÃO ENCONTRADO!");
+    }
+  } catch (error) {
+    alert("ERRO AO BUSCAR JOGO! TENTE NOVAMENTE MAIS TARDE!");
   }
 }
 
