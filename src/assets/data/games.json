@@ -513,10 +513,10 @@
       "awardsDesc": "Terraria foi um jogo muito relevante, reconhecido principalmente pelo seu impacto, popularidade e influência no gênero sandbox, mais do que por prêmios formais.",
       "awards": [
         "🏅 Jogo Indie do Ano - Golden Joystick Awards (2013).",
-        "🏅 Melhor Jogo Indie - IGN Awards - 2013.",
+        "🏅 Melhor Jogo Indie - IGN Awards (2013). ",
         "🏅 Jogo para Download do Ano - Spike Video Game Awards (2013).",
-        "🏅 Indicação a Jogo Indie do Ano - Destructoid Awards - (2013).",
-        "🏅 Reconhecimento da Comunidade Indie - Steam Community - (2021)."
+        "🏅 Indicação a Jogo Indie do Ano - Destructoid Awards (2013).",
+        "🏅 Reconhecimento da Comunidade Indie - Steam Community (2021)."
       ],
       "legacy": "Terraria deixou um legado marcante ao influenciar jogos sandbox e independentes, mostrando que atualizações constantes, liberdade criativa e forte apoio da comunidade podem manter um jogo relevante por muitos anos.",
       "curiositiesTitle": [
@@ -556,6 +556,79 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w7uOhFTrrq0?si=yMf0JFev67QZgeAn\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "name": "Dead Cells",
+      "type": "Roguelike / Metroidvania / Ação e Aventura",
+      "logo": {
+        "url": "src/assets/imgs/logos/deadcells-logo-blue.png",
+        "alt": "Logo oficial de Dead Cells"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/the beheaded.webp",
+        "alt": "Imagem do Beheaded"
+      },
+      "background": "src/assets/imgs/background-imgs/deadcells-bg2.webp",
+      "data": "10 de maio de 2017",
+      "url": "https://store.steampowered.com/app/588650/Dead_Cells/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/motion-twin-logo.png",
+        "alt": "Logo da Motion Twin desenvolvedora de Dead Cells"
+      },
+      "description": "Dead Cells é um jogo de ação roguelike em 2D com combate rápido e desafiador. Nele, o jogador explora um castelo em constante mudança, enfrentando inimigos variados e chefes poderosos. A cada morte, o progresso é parcialmente perdido, mas novas habilidades e armas são desbloqueadas, incentivando a evolução contínua e diferentes estilos de jogo.",
+      "history": "A história de Dead Cells se passa em uma ilha amaldiçoada, assolada por uma praga misteriosa conhecida como A Doença. O jogador controla uma entidade sem nome que possui corpos mortos, assumindo o papel de um prisioneiro decapitado que tenta escapar do local. Ao longo da jornada, são revelados fragmentos de memória e registros que mostram como os experimentos do Rei e dos alquimistas, na tentativa de alcançar a imortalidade e curar a praga, acabaram levando a ilha à ruína. Com o passar das tentativas, o protagonista descobre que está preso em um ciclo infinito de morte e renascimento, consequência direta desses experimentos. A narrativa é contada de forma indireta, por meio do ambiente, diálogos sutis e itens coletados, deixando ao jogador a tarefa de juntar as peças e compreender o verdadeiro destino da ilha e de si mesmo.",
+      "gameplayDesc": "A jogabilidade de Dead Cells é focada em ação rápida e precisa, com combates intensos em 2D. O jogador enfrenta inimigos em mapas gerados de forma procedural, o que torna cada partida diferente. É possível usar uma grande variedade de armas, habilidades e poderes, como espadas, arcos, granadas e magias, permitindo diversos estilos de jogo. O sistema roguelike faz com que, ao morrer, o jogador retorne ao início, mantendo apenas certos desbloqueios permanentes. Durante as partidas, o jogador melhora atributos, escolhe caminhos diferentes pelo mapa e enfrenta chefes desafiadores. A progressão exige reflexos, estratégia e aprendizado constante com os erros, recompensando quem domina o ritmo do combate e a exploração.",
+      "gameplayElements": [
+        "- Mapas gerados proceduralmente, garantindo partidas sempre diferentes.",
+        "- Combate rápido e preciso em 2D com foco em habilidade do jogador.",
+        "- Grande variedade de armas, habilidades e builds.",
+        "- Sistema roguelike com progressão permanente entre as mortes.",
+        "- Inimigos e chefes desafiadores com padrões únicos."
+      ],
+      "awardsDesc": "Dead Cells teve grande relevância em premiações por ser amplamente reconhecido pela crítica, destacando-se pela qualidade da jogabilidade, pelo design criativo e por sua contribuição para a popularização de jogos indie de ação no estilo roguelike.",
+      "awards": [
+        "🏅 Melhor Jogo de Ação - The Game Awards (2018).",
+        "🏅 Melhor Jogo Indie - Golden Joystick Awards (2018).",
+        "🏅 Excêlencia em Design - Independent Games Festival (IGF) (2018)."
+      ],
+      "legacy": "O legado de Dead Cells está na forma como ele ajudou a redefinir jogos roguelike de ação em 2D, combinando combate rápido, progressão inteligente e alta rejogabilidade. O jogo influenciou outros títulos independentes, mostrou a força dos estúdios indie no mercado e se manteve relevante por anos graças a atualizações constantes e ao apoio da comunidade.",
+      "curiositiesTitle": [
+        "🧠 Narrativa contada de forma indireta.",
+        "🔁 O protagonista não é exatamente humano.",
+        "⚔️ Inspirações em jogos clássicos de ação.",
+        "🧪 Atualizações mudaram partes da história.",
+        "🕹️ Forte apoio da comunidade por anos."
+      ],
+      "curiosities": [
+        "A história de Dead Cells é revelada principalmente por descrições de itens, cenários e pequenos diálogos, sem uma narrativa direta.",
+        "O personagem controlado pelo jogador é uma entidade parasita que assume corpos, o que explica o ciclo de morte e renascimento.",
+        "O combate do jogo foi inspirado em títulos clássicos como Castlevania e Dark Souls, misturando fluidez com desafio.",
+        "Algumas atualizações adicionaram novos finais e expandiram o entendimento sobre o Rei e a praga da ilha.",
+        "Dead Cells recebeu diversas atualizações gratuitas e DLCs, mantendo o jogo ativo e relevante por muitos anos."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/xbox-logo.png",
+          "alt": "Logo oficial do Xbox"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/mobile-android-apple.png",
+          "alt": "Logo oficial do Android e IOS"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gX4cGcwmdsY?si=0bYZ0iSvkp6v9Xhr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
     }
   ]
 }
