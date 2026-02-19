@@ -52,6 +52,15 @@
   font-family: "Roboto";
 }
 
+.accordion-header {
+  font-family: "Archivo Black";
+}
+
+.accordion-content div > h2,
+div > p {
+  font-family: "Nunito";
+}
+
 .close-modal-container > label {
   font-family: "Nunito";
 }

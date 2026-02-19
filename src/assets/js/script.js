@@ -29,6 +29,9 @@ const main = document.querySelector(".main-container");
 const steam = document.querySelector(".steam-link");
 const steamMobile = document.querySelector(".steam-mobile-link");
 
+const accordions = document.querySelectorAll(".accordion-item");
+const accContent = document.querySelector(".accordion-content");
+
 //MODAL
 const gameTitle = document.getElementById("gameTitle");
 const creator = document.querySelector(".creator-logo");
@@ -157,7 +160,7 @@ function modalChange(game) {
   const platforms = game.platforms
     .map(
       (platform) =>
-        `<img class="platform-logos" src="${platform.url}" alt="${platform.alt}"/>`
+        `<img class="platform-logos" src="${platform.url}" alt="${platform.alt}"/>`,
     )
     .join("");
   platformList.innerHTML = `<h3>Plataformas</h3>
@@ -195,7 +198,7 @@ function modalChange(game) {
   const gameCuriosities = game.curiositiesTitle
     .map(
       (title, index) =>
-        `<li><span>${title}</span>${game.curiosities[index]}</li>`
+        `<li><span>${title}</span>${game.curiosities[index]}</li>`,
     )
     .join("");
   curiosities.innerHTML = `<h3>💡 Curiosidades</h3>
@@ -205,12 +208,16 @@ function modalChange(game) {
   videoContainer.innerHTML = `${game.trailer}`;
 }
 
-gameBar.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    showInfoBySearch();
-  } else {
-    return;
-  }
+accordions.forEach((acc) => {
+  const accBtn = acc.querySelector(".accordion-header");
+
+  accBtn.addEventListener("click", () => {
+    accordions.forEach((a) => {
+      if (a !== acc) {
+        a.classList.remove("active");
+      } else a.classList.add("active");
+    });
+  });
 });
 
 gameBarMobile.addEventListener("keydown", (e) => {

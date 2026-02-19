@@ -1,6 +1,6 @@
 body {
   position: relative;
-  height: 100vh;
+  height: 120vh;
   margin: 0;
 }
 
@@ -215,9 +215,9 @@ header {
 main {
   position: relative;
   width: 100%;
-  padding-top: 2rem;
+  padding: 2rem 0 2rem 0;
   background: url("../imgs/background-imgs/HollowKnight3.avif");
-  min-height: 130vh;
+  height: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -386,6 +386,68 @@ main::before {
 
 #showMoreBtn:active {
   opacity: 0.6;
+}
+
+.extra-content {
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  z-index: 1;
+}
+
+.accordion-item {
+  margin: 1rem;
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: url("../imgs/background-imgs/terraria-background.png");
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #fafafa;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.accordion-header {
+  text-align: left;
+  width: 100%;
+  background: transparent;
+  color: #fafafa;
+  font-size: 20px;
+  border: none;
+  padding: 1.25rem;
+  cursor: pointer;
+  text-shadow: 2px 2px #0a0a0a;
+}
+
+.accordion-content div {
+  margin: 1rem;
+}
+
+.accordion-content div > h2 {
+  font-weight: 800;
+  text-shadow: 3px 3px #0a0a0a;
+  font-size: 22px;
+  color: #fafafa;
+}
+
+.accordion-content div > p {
+  font-weight: 800;
+  text-shadow: 2px 2px #0a0a0a;
+  color: #fafafa;
+}
+
+.accordion-content {
+  height: 0;
+  transition: height 0.3s ease-in;
+}
+
+.accordion-content.active {
+  height: auto;
 }
 
 .modal-loading-bg {
