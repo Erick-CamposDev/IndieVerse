@@ -29,8 +29,8 @@ const main = document.querySelector(".main-container");
 const steam = document.querySelector(".steam-link");
 const steamMobile = document.querySelector(".steam-mobile-link");
 
-const accordions = document.querySelectorAll(".accordion-item");
-const accContent = document.querySelector(".accordion-content");
+const accBtn = document.querySelectorAll(".accordion-header");
+const otherContents = document.querySelectorAll(".accordion-content");
 
 //MODAL
 const gameTitle = document.getElementById("gameTitle");
@@ -208,15 +208,24 @@ function modalChange(game) {
   videoContainer.innerHTML = `${game.trailer}`;
 }
 
-accordions.forEach((acc) => {
-  const accBtn = acc.querySelector(".accordion-header");
+accBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const content = btn.nextElementSibling;
 
-  accBtn.addEventListener("click", () => {
-    accordions.forEach((a) => {
-      if (a !== acc) {
-        a.classList.remove("active");
-      } else a.classList.add("active");
+    accBtn.forEach((b) => {
+      if (b !== btn) {
+        b.classList.remove("active");
+      }
     });
+
+    otherContents.forEach((c) => {
+      if (c !== content) {
+        c.classList.remove("active");
+      }
+    });
+
+    btn.classList.toggle("active");
+    content.classList.toggle("active");
   });
 });
 

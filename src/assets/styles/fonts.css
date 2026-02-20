@@ -57,7 +57,9 @@
 }
 
 .accordion-content div > h2,
-div > p {
+div > p,
+div > h3,
+div > h4 {
   font-family: "Nunito";
 }
 

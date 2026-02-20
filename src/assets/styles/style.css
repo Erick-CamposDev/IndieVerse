@@ -398,7 +398,7 @@ main::before {
   z-index: 1;
 }
 
-.accordion-item {
+.accordion {
   margin: 1rem;
   width: 55%;
   height: auto;
@@ -409,10 +409,14 @@ main::before {
   background-position: center;
   border: 2px solid #fafafa;
   overflow: hidden;
+  text-overflow: ellipsis;
   border-radius: 10px;
 }
 
 .accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-align: left;
   width: 100%;
   background: transparent;
@@ -424,15 +428,35 @@ main::before {
   text-shadow: 2px 2px #0a0a0a;
 }
 
-.accordion-content div {
-  margin: 1rem;
+.accordion-header i {
+  font-size: 30px;
+  transition: all 0.4s ease-in;
 }
 
-.accordion-content div > h2 {
+.accordion-header.active i {
+  transform: rotate(180deg);
+}
+
+.accordion-content div {
+  margin: 1rem;
+  border: 3px solid #fafafa;
+  padding: 0.5rem;
+  backdrop-filter: blur(6px);
+  border-radius: 14px;
+  box-shadow: 3px 3px 12px #0a0a0a57;
+}
+
+.accordion-content div > h2,
+div > h3,
+div > h4 {
   font-weight: 800;
   text-shadow: 3px 3px #0a0a0a;
   font-size: 22px;
   color: #fafafa;
+}
+
+.accordion-content div > h4 {
+  margin-top: 1rem;
 }
 
 .accordion-content div > p {
@@ -441,13 +465,49 @@ main::before {
   color: #fafafa;
 }
 
+.accordion-content div > h3 {
+  font-size: 17px;
+}
+
+.accordion-content ul li {
+  display: flex;
+  align-items: center;
+  text-shadow: 2px 2px #0a0a0a;
+}
+
 .accordion-content {
   height: 0;
-  transition: height 0.3s ease-in;
+  transition: height 0.6s ease;
 }
 
 .accordion-content.active {
-  height: auto;
+  min-height: 1200px;
+}
+
+.extra-name span,
+.antagonist-name span {
+  text-transform: uppercase;
+}
+
+.acc-steam {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.acc-steam-btn {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.acc-steam-btn:hover {
+  filter: invert(1);
+  transform: scale(1.05);
+}
+
+.acc-steam-btn img {
+  width: 50px;
+  height: 50px;
 }
 
 .modal-loading-bg {
