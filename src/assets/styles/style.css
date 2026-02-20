@@ -1042,6 +1042,10 @@ footer {
     width: auto;
   }
 
+  .accordion-content div > p {
+    font-size: 13px;
+  }
+
   #content2 {
     text-align: center;
     margin: 0;
@@ -1157,6 +1161,18 @@ footer {
   }
 }
 
+@media (min-width: 300px) and (max-width: 350px) {
+  .accordion-content.active {
+    height: 1250px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 300px) {
+  .accordion-content.active {
+    height: 1350px;
+  }
+}
+
 @media (min-width: 280px) and (max-width: 350px) {
   #gameLogo {
     width: 180px;
@@ -1167,17 +1183,38 @@ footer {
     width: 100px;
     height: 150px;
   }
-}
 
-@media (min-width: 350px) and (max-width: 425px) {
-  #gameLogo {
-    width: 190px;
-    height: 160px;
+  .accordion-content div {
+    width: 95%;
+    margin: 0.5rem 0;
+    text-align: center;
   }
 
-  #gameCharacter {
-    width: 150px;
-    height: 150px;
+  .accordion-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .acc-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .acc-steam-btn img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .accordion-content div > h2,
+  div > h4 {
+    font-size: 15px;
+  }
+
+  .accordion-content div > h3 {
+    font-size: 15px;
   }
 }
 
@@ -1190,6 +1227,16 @@ footer {
   #gameCharacter {
     width: 150px;
     height: 170px;
+  }
+
+  .accordion-content.active {
+    height: 1250px;
+  }
+
+  .accordion-content div > h2,
+  div > h3,
+  div > h4 {
+    font-size: 15px;
   }
 }
 
@@ -1224,6 +1271,16 @@ footer {
 @media (min-width: 425px) and (max-width: 550px) {
   .modal {
     width: auto;
+  }
+
+  .accordion-content.active {
+    height: 1150px;
+  }
+
+  .accordion-content div > h2,
+  div > h3,
+  div > h4 {
+    font-size: 16px;
   }
 }
 
