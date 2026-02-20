@@ -481,7 +481,7 @@ div > h4 {
 }
 
 .accordion-content.active {
-  min-height: 1200px;
+  height: 1200px;
 }
 
 .extra-name span,
@@ -1030,6 +1030,16 @@ footer {
     align-items: center;
     margin: 0;
     text-align: center;
+  }
+
+  .extra-content {
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 0;
+  }
+
+  .accordion {
+    width: auto;
   }
 
   #content2 {
