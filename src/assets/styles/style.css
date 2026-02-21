@@ -976,6 +976,15 @@ footer {
   }
 }
 
+@media (min-height: 1000px) {
+  body {
+    height: 100vh;
+  }
+  footer {
+    height: 300px;
+  }
+}
+
 @media (min-width: 280px) and (max-width: 550px) {
   .search-bar {
     display: none;
@@ -1334,6 +1343,24 @@ footer {
   .modal {
     width: 100%;
   }
+
+  .accordion {
+    width: 85%;
+  }
+
+  .accordion-content div > h2,
+  div > h3,
+  div > h4 {
+    font-size: 18px;
+  }
+
+  .accordion-content div > p {
+    font-size: 16px;
+  }
+
+  .accordion-content.active {
+    height: 1250px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1377,6 +1404,26 @@ footer {
 
   .message > p {
     margin-left: 3.5rem;
+  }
+
+  .accordion-content div > h2,
+  div > h3,
+  div > h4 {
+    font-size: 16px;
+  }
+
+  .accordion-content div > p {
+    font-size: 14px;
+  }
+
+  .accordion-content.active {
+    height: 1200px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1250px) {
+  .accordion-content.active {
+    height: 1250px;
   }
 }
 
