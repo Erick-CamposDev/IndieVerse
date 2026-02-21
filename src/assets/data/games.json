@@ -74,7 +74,10 @@
           "alt": "Logo oficial do Nintendo Switch"
         }
       ],
-      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UAO2urG23S4?si=m_p9Ior8vsi1OBYI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UAO2urG23S4?si=m_p9Ior8vsi1OBYI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extra-section": {
+        "itHas": false
+      }
     },
     {
       "name": "Undertale",
@@ -139,7 +142,10 @@
           "alt": "Logo oficial do Nintendo Switch"
         }
       ],
-      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1Hojv0m3TqA?si=zxe2fL3cBH_SeYcw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1Hojv0m3TqA?si=zxe2fL3cBH_SeYcw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extra-section": {
+        "itHas": false
+      }
     },
     {
       "name": "Deltarune",
@@ -203,7 +209,43 @@
           "alt": "Logo oficial do Nintendo Switch"
         }
       ],
-      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yDzgiGdekas?si=nKxIdIEU7ipwzDgs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yDzgiGdekas?si=nKxIdIEU7ipwzDgs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extra-section": {
+        "itHas": true,
+        "extra-content": [
+          {
+            "acc-name": "Cápitulo 1",
+            "content-name": "The Beginning (O começo)",
+            "content-img": "placeholder",
+            "content-date": "31/10/2018",
+            "synopisis": "O humano Kris e a colega Susie, que caem no 'Mundo das Trevas' e se unem ao príncipe Ralsei para selar fontes escuras, restaurar o equilíbrio e impedir o fim do mundo.",
+            "characters": [
+              "- Fun Gang (Kris, Susie e Ralsei)",
+              "- Lancer",
+              "- Chaos King",
+              "- Jevil (Boss Secreto)",
+              "- Rouxls Kaard",
+              "- Seam"
+            ],
+            "antagonist": {
+              "antagonist-name": "Chaos King",
+              "features": [
+                "- Vilão Principal do Capítulo 1",
+                "- Rei do Mundo das Trevas",
+                "- Pai do Lancer",
+                "- Possui ataques inspirados na carta de espadas"
+              ]
+            },
+            "lore": "O Capítulo 1 de Deltarune começa quando o jogador assume o controle de Kris, um adolescente humano quieto que vive com sua mãe, Toriel, e frequenta a escola local. Lá, Kris é obrigado a fazer um trabalho com Susie, uma aluna agressiva. Ao procurarem giz em um armário, eles acabam entrando no Mundo das Trevas, onde encontram Ralsei, um príncipe que revela que os três são heróis de uma profecia destinados a restaurar o equilíbrio entre luz e trevas. Durante a jornada, eles conhecem Lancer, que começa como inimigo, mas acaba se tornando amigo, ajudando Susie a se tornar uma pessoa melhor. No final, o grupo derrota o Rei e Kris usa o poder de sua ALMA para selar a Fonte das Trevas, restaurando o equilíbrio.",
+            "gameplayMechanics": [
+              "- Tension Points",
+              "- Opções de Lutar, Poupar, Defender, Agir, Usar item e etc",
+              "- Batalha com 1 ou mais personagens em sua party"
+            ],
+            "steamLink": "https://store.steampowered.com/app/1671210/DELTARUNE/"
+          }
+        ]
+      }
     },
     {
       "name": "Hollow Knight: Silksong",
@@ -273,7 +315,10 @@
           "alt": "Logo oficial do Nintendo Switch"
         }
       ],
-      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6XGeJwsUP9c?si=Dn0rAulK8byJ0BCD\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6XGeJwsUP9c?si=Dn0rAulK8byJ0BCD\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extra-section": {
+        "itHas": false
+      }
     },
     {
       "name": "Celeste",
@@ -342,7 +387,10 @@
           "alt": "Logo oficial do Nintendo Switch"
         }
       ],
-      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FqBj2IGg6Uw?si=m7P4q_e9CEZrEPaQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FqBj2IGg6Uw?si=m7P4q_e9CEZrEPaQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extra-section": {
+        "itHas": false
+      }
     },
     {
       "name": "Cuphead",
@@ -411,7 +459,10 @@
           "alt": "Logo oficial do Nintendo Switch"
         }
       ],
-      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NN-9SQXoi50?si=X0NzuokmzfkC4dK1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NN-9SQXoi50?si=X0NzuokmzfkC4dK1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extra-section": {
+        "itHas": false
+      }
     },
     {
       "name": "Shovel Knight",
@@ -480,7 +531,10 @@
           "alt": "Logo oficial do Nintendo Switch"
         }
       ],
-      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jo-uuawy9Ok?si=fZ3oo2Xs6IhjLQfm\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jo-uuawy9Ok?si=fZ3oo2Xs6IhjLQfm\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extra-section": {
+        "itHas": false
+      }
     },
     {
       "name": "Terraria",
@@ -555,7 +609,10 @@
           "alt": "Logo oficial do Android e IOS"
         }
       ],
-      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w7uOhFTrrq0?si=yMf0JFev67QZgeAn\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w7uOhFTrrq0?si=yMf0JFev67QZgeAn\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extra-section": {
+        "itHas": false
+      }
     },
     {
       "name": "Dead Cells",
@@ -628,7 +685,10 @@
           "alt": "Logo oficial do Android e IOS"
         }
       ],
-      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gX4cGcwmdsY?si=0bYZ0iSvkp6v9Xhr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gX4cGcwmdsY?si=0bYZ0iSvkp6v9Xhr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extra-section": {
+        "itHas": false
+      }
     }
   ]
 }
