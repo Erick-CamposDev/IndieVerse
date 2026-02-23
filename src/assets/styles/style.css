@@ -404,7 +404,6 @@ main::before {
   height: auto;
   display: flex;
   flex-direction: column;
-  background: url("../imgs/background-imgs/terraria-background.png");
   background-size: cover;
   background-position: center;
   border: 2px solid #fafafa;
@@ -441,6 +440,7 @@ main::before {
   margin: 1rem;
   border: 3px solid #fafafa;
   padding: 0.5rem;
+  background: #0a0a0a7e;
   backdrop-filter: blur(6px);
   border-radius: 14px;
   box-shadow: 3px 3px 12px #0a0a0a57;
@@ -477,7 +477,29 @@ div > h4 {
 
 .accordion-content {
   height: 0;
+  overflow-x: auto;
   transition: height 0.6s ease;
+}
+
+.accordion-content::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+.accordion-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.accordion-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    #c039bc 25%,
+    #7b437a 50%,
+    #811c7e 75%,
+    #580a55 100%
+  );
+  width: 1rem;
+  border-radius: 16px;
+  border: 2px solid #0a0a0a;
 }
 
 .accordion-content.active {

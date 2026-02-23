@@ -29,8 +29,7 @@ const main = document.querySelector(".main-container");
 const steam = document.querySelector(".steam-link");
 const steamMobile = document.querySelector(".steam-mobile-link");
 
-const accBtn = document.querySelectorAll(".accordion-header");
-const otherContents = document.querySelectorAll(".accordion-content");
+const extraContent = document.querySelector(".extra-content");
 
 //MODAL
 const gameTitle = document.getElementById("gameTitle");
@@ -139,6 +138,7 @@ async function showInfoBySearch() {
         url.href = `${gameFound.url}`;
       });
       modalChange(gameFound);
+      verifyContent(gameFound);
       searchBar.value = "";
       searchBar.focus();
 
@@ -152,7 +152,107 @@ async function showInfoBySearch() {
     }
   } catch (error) {
     alert("ERRO AO BUSCAR JOGO! TENTE NOVAMENTE MAIS TARDE!");
+    console.log(error);
   }
+}
+
+function verifyContent(game) {
+  const itHas = game.extraSection.itHas;
+
+  if (!itHas) {
+    return;
+  } else {
+    showAccordions(game);
+  }
+}
+
+function showAccordions(game) {
+  game.extraSection.extraContent.forEach((p) => {
+    const accordion = document.createElement("div");
+    accordion.style.backgroundImage = `url("${p.contentImg}")`;
+    accordion.classList.add("accordion");
+
+    const accBtn = document.createElement("button");
+    accBtn.classList.add("accordion-header");
+    accBtn.innerHTML = `${p.accName} <i class="bi bi-arrow-up-circle"></i>`;
+
+    const accContent = document.createElement("div");
+    accContent.classList.add("accordion-content");
+    const overview = document.createElement("div");
+
+    overview.innerHTML = `  <h2 class="overview-title">Visão Geral:</h2>
+                            <p class="extra-name">Nome do conteúdo: <span>${p.contentName}</span></p>
+                            <p class="extra-data">Data de lançamento: ${p.contentDate}</p>`;
+
+    const synopisis = document.createElement("div");
+    synopisis.innerHTML = ` <h2 class="synopisis">Sinópse:</h2>
+                            <p>${p.synopisis}</p>`;
+
+    const characters = document.createElement("div");
+    const charList = p.characters.map((c) => `<li>${c}</li>`);
+    characters.innerHTML = `<h2 class="acc-characters">Personagens: </h2>
+              <ul class="acc-ul">
+                ${charList}
+              </ul>`;
+
+    const antagonistContent = document.createElement("div");
+    const featureList = p.antagonist.features.map((f) => `<li>${f}</li>`);
+    antagonistContent.innerHTML = `<h2 class="main-antagonist-title">Antagonista:</h2>
+                                     <h3 class="antagonist-name">Nome: <span>${p.antagonist.antagonistName}</span></h3>
+                                     <h4 class="antagonist-features">Características:</h4>
+                                     <ul class="acc-ul">
+                                        ${featureList}
+                                     </ul>`;
+
+    const loreContent = document.createElement("div");
+    loreContent.innerHTML = ` <h2 class="lore-title">Lore:</h2>
+                              <p>${p.lore}</p>`;
+
+    const gameplayMechanicsContent = document.createElement("div");
+    const mechanicList = p.gameplayMechanics.map((g) => `<li>${g}</li>`);
+    gameplayMechanicsContent.innerHTML = `<h2 class="mechanics-title">Novas Mecânicas</h2>
+                                   <ul class="acc-ul">
+                                      ${mechanicList}
+                                   </ul>`;
+
+    const accSteam = document.createElement("div");
+    accSteam.classList.add("acc-steam");
+    accSteam.innerHTML = `<a class="acc-steam-btn" href="${p.steamLink}" target="_blank"><img alt="Ir para a página da steam do conteúdo" src="src/assets/imgs/game-platforms/Steam-logo.png"></a>
+                          <p>Acesse o conteúdo na steam!</p>`;
+
+    accBtn.addEventListener("click", () => {
+      const headers = document.querySelectorAll(".accordion-header");
+      const otherContents = document.querySelectorAll(".accordion-content");
+
+      headers.forEach((h) => {
+        if (h !== accBtn) {
+          h.classList.remove("active");
+        }
+      });
+
+      otherContents.forEach((c) => {
+        if (c !== accContent) {
+          c.classList.remove("active");
+        }
+      });
+
+      accBtn.classList.toggle("active");
+      accContent.classList.toggle("active");
+    });
+
+    accordion.appendChild(accBtn);
+    accordion.appendChild(accContent);
+    accContent.append(
+      overview,
+      synopisis,
+      characters,
+      antagonistContent,
+      loreContent,
+      gameplayMechanicsContent,
+      accSteam,
+    );
+    extraContent.appendChild(accordion);
+  });
 }
 
 function modalChange(game) {
@@ -207,27 +307,6 @@ function modalChange(game) {
   //MODAL DO VIDEO TRAILER
   videoContainer.innerHTML = `${game.trailer}`;
 }
-
-accBtn.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const content = btn.nextElementSibling;
-
-    accBtn.forEach((b) => {
-      if (b !== btn) {
-        b.classList.remove("active");
-      }
-    });
-
-    otherContents.forEach((c) => {
-      if (c !== content) {
-        c.classList.remove("active");
-      }
-    });
-
-    btn.classList.toggle("active");
-    content.classList.toggle("active");
-  });
-});
 
 gameBarMobile.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {

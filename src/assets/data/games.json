@@ -75,7 +75,7 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UAO2urG23S4?si=m_p9Ior8vsi1OBYI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-      "extra-section": {
+      "extraSection": {
         "itHas": false
       }
     },
@@ -143,7 +143,7 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1Hojv0m3TqA?si=zxe2fL3cBH_SeYcw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-      "extra-section": {
+      "extraSection": {
         "itHas": false
       }
     },
@@ -216,7 +216,7 @@
           {
             "accName": "Cápitulo 1",
             "contentName": "The Beginning (O começo)",
-            "contentImg": "placeholder",
+            "contentImg": "src/assets/imgs/extra-content-imgs/deltarune/chapter1.png",
             "contentDate": "31/10/2018",
             "synopisis": "O humano Kris e a colega Susie, que caem no 'Mundo das Trevas' e se unem ao príncipe Ralsei para selar fontes escuras, restaurar o equilíbrio e impedir o fim do mundo.",
             "characters": [
@@ -247,7 +247,7 @@
           {
             "accName": "Cápitulo 2",
             "contentName": "A Cyber's World (Um mundo cibernético)",
-            "contentImg": "placeholder",
+            "contentImg": "src/assets/imgs/extra-content-imgs/deltarune/chapter2.png",
             "contentDate": "17/7/2021",
             "synopisis": "Kris e Susie investigando uma nova Fonte das Trevas na biblioteca da cidade, criando um 'Mundo Cibernético'. Eles se unem a Ralsei e, junto com Noelle e Berdly, tentam parar a Rainha, uma vilã caricata que busca abrir mais fontes.",
             "characters": [
@@ -277,7 +277,7 @@
           {
             "accName": "Cápitulo 3",
             "contentName": "Late Night (Noite Tarde)",
-            "contentImg": "placeholder",
+            "contentImg": "src/assets/imgs/extra-content-imgs/deltarune/chapter3.avif",
             "contentDate": "5/6/2025",
             "synopisis": "No Capítulo 3 de Deltarune, um novo Dark World é criado dentro da casa de Kris, transformando a sala em um mundo baseado em televisão e entretenimento. Kris, Susie e Ralsei exploram esse ambiente estranho, onde tudo funciona como um programa de TV.",
             "characters": [
@@ -310,7 +310,7 @@
           {
             "accName": "Cápitulo 4",
             "contentName": "Prophecy (Profecia)",
-            "contentImg": "placeholder",
+            "contentImg": "src/assets/imgs/extra-content-imgs/deltarune/chapter4.avif",
             "contentDate": "5/6/2025",
             "synopisis": "No Capítulo 4, chamado Prophecy, Kris e Susie participam de uma missa na igreja com Toriel, mas acabam descobrindo que um novo e profundo Dark World surgiu dentro da igreja.",
             "characters": [
@@ -410,7 +410,7 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6XGeJwsUP9c?si=Dn0rAulK8byJ0BCD\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-      "extra-section": {
+      "extraSection": {
         "itHas": false
       }
     },
@@ -482,7 +482,7 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FqBj2IGg6Uw?si=m7P4q_e9CEZrEPaQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-      "extra-section": {
+      "extraSection": {
         "itHas": false
       }
     },
@@ -554,7 +554,7 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NN-9SQXoi50?si=X0NzuokmzfkC4dK1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-      "extra-section": {
+      "extraSection": {
         "itHas": false
       }
     },
@@ -626,7 +626,7 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jo-uuawy9Ok?si=fZ3oo2Xs6IhjLQfm\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-      "extra-section": {
+      "extraSection": {
         "itHas": false
       }
     },
@@ -704,7 +704,7 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w7uOhFTrrq0?si=yMf0JFev67QZgeAn\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-      "extra-section": {
+      "extraSection": {
         "itHas": false
       }
     },
@@ -780,7 +780,7 @@
         }
       ],
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gX4cGcwmdsY?si=0bYZ0iSvkp6v9Xhr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-      "extra-section": {
+      "extraSection": {
         "itHas": false
       }
     }
