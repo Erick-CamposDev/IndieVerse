@@ -230,6 +230,131 @@
             "antagonist": {
               "antagonist-name": "Chaos King",
               "features": [
+                "- Antagonista do Capítulo 1",
+                "- Rei do Mundo das Trevas",
+                "- Pai do Lancer",
+                "- Possui ataques inspirados na carta de espadas"
+              ]
+            },
+            "lore": "O Capítulo 1 de Deltarune começa quando o jogador assume o controle de Kris, um adolescente humano quieto que vive com sua mãe, Toriel, e frequenta a escola local. Lá, Kris é obrigado a fazer um trabalho com Susie, uma aluna agressiva. Ao procurarem giz em um armário, eles acabam entrando no Mundo das Trevas, onde encontram Ralsei, um príncipe que revela que os três são heróis de uma profecia destinados a restaurar o equilíbrio entre luz e trevas. Durante a jornada, eles conhecem Lancer, que começa como inimigo, mas acaba se tornando amigo, ajudando Susie a se tornar uma pessoa melhor. No final, o grupo derrota o Rei e Kris usa o poder de sua ALMA para selar a Fonte das Trevas, restaurando o equilíbrio.",
+            "gameplayMechanics": [
+              "- Tension Points",
+              "- Opções de Lutar, Poupar, Defender, Agir, Usar item e etc",
+              "- Batalha com 1 ou mais personagens em sua party"
+            ],
+            "steamLink": "https://store.steampowered.com/app/1671210/DELTARUNE/"
+          },
+          {
+            "acc-name": "Cápitulo 2",
+            "content-name": "A Cyber's World (Um mundo cibernético)",
+            "content-img": "placeholder",
+            "content-date": "17/7/2021",
+            "synopisis": "Kris e Susie investigando uma nova Fonte das Trevas na biblioteca da cidade, criando um 'Mundo Cibernético'. Eles se unem a Ralsei e, junto com Noelle e Berdly, tentam parar a Rainha, uma vilã caricata que busca abrir mais fontes.",
+            "characters": [
+              "- Fun Gang (Kris, Susie e Ralsei)",
+              "- Noelle",
+              "- Berdly",
+              "- Spamton / Spamton NEO (Boss Secreto)",
+              "- Queen"
+            ],
+            "antagonist": {
+              "antagonist-name": "Q5U4EX7YY2E9N / Queen",
+              "features": [
+                "- Antagonista do capítulo 2",
+                "- Rainha do mundo cibernético",
+                "- Personalidade benevolente e engraçada",
+                "- Estilo distinto e excêntrico nos dialógos"
+              ]
+            },
+            "lore": "No Capítulo 2 de Deltarune, Kris e Susie entram em um novo Dark World dentro do laboratório de informática da escola, onde reencontram Ralsei e descobrem que o local é governado pela robótica Queen, que deseja criar um mundo perfeito controlando todos. Durante a aventura, eles encontram Noelle e Berdly, que foram manipulados pela Queen, especialmente Noelle, que é pressionada a usar seus poderes. O grupo descobre que esses mundos são criados por Fontes das Trevas e que alguém está abrindo essas fontes, o que pode causar o “Roaring”, um evento que ameaça destruir o equilíbrio entre luz e escuridão. No final, após selarem a fonte e voltarem ao mundo real, Kris misteriosamente remove sua própria alma e cria uma nova fonte, sugerindo que ele pode estar envolvido na criação dos Dark Worlds.",
+            "gameplayMechanics": [
+              "- Recrutar Adversários",
+              "- Alma Amarela na batalha do Spamton NEO",
+              "- Batalha final com referência a Punch Out."
+            ],
+            "steamLink": "https://store.steampowered.com/app/1671210/DELTARUNE/"
+          },
+          {
+            "acc-name": "Cápitulo 3",
+            "content-name": "Late Night (Noite Tarde)",
+            "content-img": "placeholder",
+            "content-date": "5/6/2025",
+            "synopisis": "No Capítulo 3 de Deltarune, um novo Dark World é criado dentro da casa de Kris, transformando a sala em um mundo baseado em televisão e entretenimento. Kris, Susie e Ralsei exploram esse ambiente estranho, onde tudo funciona como um programa de TV.",
+            "characters": [
+              "- Fun Gang (Kris, Susie e Ralsei)",
+              "- Tenna",
+              "- Mike",
+              "- Ramb",
+              "- Roaring Knight (Boss Secreto)",
+              "- Elnino e Lanina",
+              "- Eram (Boss do Shadow Mantle)",
+              "- Undyne e Toriel"
+            ],
+            "antagonist": {
+              "antagonist-name": "Tenna",
+              "features": [
+                "- Antagonista do Capítulo 3",
+                "- Apresentador de TV Carismático",
+                "- Possui uma relação com o Spamton",
+                "- Tem medo de de ficar sozinho denovo"
+              ]
+            },
+            "lore": "Após os eventos do capítulo anterior, Kris cria uma nova Fonte das Trevas dentro de sua própria casa, fazendo com que ele, Susie e Ralsei entrem em um Dark World com temática de televisão. Esse mundo é controlado por Tenna, uma entidade carismática e manipuladora que trata tudo como um espetáculo e força os personagens a participarem de “programas”. No Capítulo 3 de Deltarune, um novo Dark World é criado dentro da casa de Kris, transformando a sala em um mundo baseado em televisão e entretenimento. Kris, Susie e Ralsei exploram esse ambiente estranho, onde tudo funciona como um programa de TV. O capítulo aprofunda o mistério sobre o controle da alma de Kris e sugere que existe um conflito entre suas próprias ações e a força que controla o jogador.",
+            "gameplayMechanics": [
+              "- Minigame do Tenna baseado no 'The Legend of Zelda'",
+              "- Minigames Alternativos de restaurante, ritmo e etc",
+              "- Minigames secretos para desbloquear o Shadow Mantle"
+            ],
+            "steamLink": "https://store.steampowered.com/app/1671210/DELTARUNE/"
+          },
+          {
+            "acc-name": "Cápitulo 4",
+            "content-name": "Prophecy (Profecia)",
+            "content-img": "placeholder",
+            "content-date": "5/6/2025",
+            "synopisis": "No Capítulo 4, chamado Prophecy, Kris e Susie participam de uma missa na igreja com Toriel, mas acabam descobrindo que um novo e profundo Dark World surgiu dentro da igreja.",
+            "characters": [
+              "- Fun Gang (Kris, Susie e Ralsei)",
+              "- Roaring Knight",
+              "- Roaring Titan",
+              "- Gerson (Boss Secreto)",
+              "- Jackenstein",
+              "- Carol Holliday"
+            ],
+            "antagonist": {
+              "antagonist-name": "Roaring Titan",
+              "features": [
+                "- Último antagonista do capítulo 4",
+                "- Invocado pelo Roaring Knight",
+                "- Chefe colossal e absurdamente poderoso",
+                "- Possui ataques de escuridão."
+              ]
+            },
+            "lore": "No Capítulo 4 de Deltarune, Kris, Susie e Toriel vão à igreja atrás de pistas para decifrar os códigos de um bunker misterioso, mas descobrem que a própria igreja foi tomada por um Dark World chamado Dark Sanctuary. Nesse mundo sombrio, eles encontram figuras enigmáticas, murais que revelam parte de uma profecia maior e desafios que aprofundam o mistério por trás das Fontes das Trevas e do papel deles nesse universo. Durante a exploração, eles encontram Gerson Boom, uma tartaruga que já havia falecido no mundo da luz, mas cuja presença e legado ainda influenciam aquele local. No Dark World, elementos ligados a Gerson sugerem que ele conhecia antigas profecias e o perigo das Fontes das Trevas. Além disso, o grupo enfrenta o Knight, um inimigo poderoso que cria novas fontes e invoca o colossal Titan, um prenúncio do Roaring, um evento catastrófico que ameaça o equilíbrio entre luz e escuridão.",
+            "gameplayMechanics": [
+              "- TP Azul para inimigos de escuridão",
+              "- Alma verde na batalha contra Gerson",
+              "- Mecânica de escalada em estruturas"
+            ],
+            "steamLink": "https://store.steampowered.com/app/1671210/DELTARUNE/"
+          },
+          {
+            "acc-name": "Cápitulo 1",
+            "content-name": "The Beginning (O começo)",
+            "content-img": "placeholder",
+            "content-date": "31/10/2018",
+            "synopisis": "O humano Kris e a colega Susie, que caem no 'Mundo das Trevas' e se unem ao príncipe Ralsei para selar fontes escuras, restaurar o equilíbrio e impedir o fim do mundo.",
+            "characters": [
+              "- Fun Gang (Kris, Susie e Ralsei)",
+              "- Lancer",
+              "- Chaos King",
+              "- Jevil (Boss Secreto)",
+              "- Rouxls Kaard",
+              "- Seam"
+            ],
+            "antagonist": {
+              "antagonist-name": "Chaos King",
+              "features": [
                 "- Vilão Principal do Capítulo 1",
                 "- Rei do Mundo das Trevas",
                 "- Pai do Lancer",
