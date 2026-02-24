@@ -214,7 +214,7 @@
         "itHas": true,
         "extraContent": [
           {
-            "accName": "Cápitulo 1",
+            "accName": "Capítulo 1",
             "contentName": "The Beginning (O começo)",
             "contentImg": "src/assets/imgs/extra-content-imgs/deltarune/chapter1.png",
             "contentDate": "31/10/2018",
@@ -245,7 +245,7 @@
             "steamLink": "https://store.steampowered.com/app/1671210/DELTARUNE/"
           },
           {
-            "accName": "Cápitulo 2",
+            "accName": "Capítulo 2",
             "contentName": "A Cyber's World (Um mundo cibernético)",
             "contentImg": "src/assets/imgs/extra-content-imgs/deltarune/chapter2.png",
             "contentDate": "17/7/2021",
@@ -275,7 +275,7 @@
             "steamLink": "https://store.steampowered.com/app/1671210/DELTARUNE/"
           },
           {
-            "accName": "Cápitulo 3",
+            "accName": "Capítulo 3",
             "contentName": "Late Night (Noite Tarde)",
             "contentImg": "src/assets/imgs/extra-content-imgs/deltarune/chapter3.avif",
             "contentDate": "5/6/2025",
@@ -308,7 +308,7 @@
             "steamLink": "https://store.steampowered.com/app/1671210/DELTARUNE/"
           },
           {
-            "accName": "Cápitulo 4",
+            "accName": "Capítulo 4",
             "contentName": "Prophecy (Profecia)",
             "contentImg": "src/assets/imgs/extra-content-imgs/deltarune/chapter4.avif",
             "contentDate": "5/6/2025",
@@ -782,6 +782,233 @@
       "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gX4cGcwmdsY?si=0bYZ0iSvkp6v9Xhr\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
       "extraSection": {
         "itHas": false
+      }
+    },
+    {
+      "name": "Poppy Playtime",
+      "type": "Terror / Puzzle / Indie",
+      "logo": {
+        "url": "src/assets/imgs/logos/Poppy_Playtime_Logo.png",
+        "alt": "Imagem da logo oficial de Poppy Playtime"
+      },
+      "character": {
+        "url": "src/assets/imgs/character/HuggyWuggy.webp",
+        "alt": "Imagem do Huggy Wuggy antagonista principal do jogo."
+      },
+      "background": "src/assets/imgs/background-imgs/poppyPlaytimeBg.avif",
+      "data": "12 de outubro de 2021",
+      "url": "https://store.steampowered.com/app/1721470/Poppy_Playtime/",
+      "creatorLogo": {
+        "url": "src/assets/imgs/creator-img/mobEntertainment.webp",
+        "alt": "Imagem da Mob Games desenvolvedora de Poppy Playtime"
+      },
+      "description": "Poppy Playtime é um jogo de terror e puzzle criado pela MOB Games. Nele, você joga como um ex-funcionário que retorna a uma fábrica de brinquedos abandonada chamada Playtime Co., anos depois de todos os funcionários terem desaparecido misteriosamente.",
+      "history": "Tudo começa quando o protagonista, um ex-funcionário da empresa, recebe uma fita misteriosa anos após o desaparecimento de todos os trabalhadores. A fita sugere que ainda há algo vivo dentro da fábrica. Ao voltar ao local, ele percebe que os brinquedos, como Huggy Wuggy, estão conscientes e hostis. Durante os capítulos seguintes, o protagonista encontra personagens como Poppy, que inicialmente parece querer ajudar, e enfrenta outras criaturas como Mommy Long Legs e CatNap, que foram resultados desses experimentos. Aos poucos, fica claro que muitos desses brinquedos sofrem, sentem emoções e alguns querem vingança contra a empresa e os humanos. No fundo da fábrica, é revelado que uma entidade conhecida como “The Prototype” controla ou influencia vários dos brinquedos e pode ter sido a causa do caos.",
+      "gameplayDesc": "A jogabilidade de Poppy Playtime é focada em exploração, resolução de puzzles e sobrevivência em primeira pessoa. O jogador explora uma fábrica abandonada cheia de corredores, salas trancadas e áreas secretas, enquanto descobre a história através de fitas, objetos e do ambiente. O principal recurso é o GrabPack, uma mochila com mãos extensíveis que permite puxar objetos, ativar mecanismos, abrir portas e interagir com o cenário. Ao longo do jogo, o jogador também precisa fugir e se esconder de brinquedos hostis que o perseguem. O progresso acontece ao resolver enigmas que desbloqueiam novas áreas da fábrica, enquanto a tensão aumenta com encontros inesperados e sequências de perseguição.",
+      "gameplayElements": [
+        "- Exploração pela fábrica para encontrar caminhos, itens e segredos.",
+        "- Resolução de puzzles para poder prosseguir no jogo.",
+        "- Uso do GrabPack: agarrar objetos, ativar energia e interagir com mecanismos.",
+        "- Fuga e perseguição para escapar de brinquedos que tentam capturar o jogador.",
+        "- Progressão por capítulos"
+      ],
+      "awardsDesc": "Poppy Playtime recebeu reconhecimento por sua história misteriosa e atmosfera de terror. O jogo também ganhou grande popularidade na Steam e entre criadores de conteúdo, tornando-se um dos jogos de terror indie mais conhecidos e bem-sucedidos dos últimos anos.",
+      "awards": [
+        "🏅 Excelência Técnica - Xbox Excellence Awards (2024)",
+        "🥈 Indicado a melhor narrativa - The Horror Game Awards (2024)",
+        "🥈 Indicado a jogo de terror favorito - CP Game Awards (2024)"
+      ],
+      "legacy": "O legado de Poppy Playtime está em popularizar novamente os jogos de terror com mascotes e narrativa por capítulos. Seu sucesso influenciou outros jogos do gênero e mostrou que jogos indie podem alcançar enorme impacto global, especialmente com apoio da comunidade e de criadores de conteúdo.",
+      "curiositiesTitle": [
+        "🧸 Huggy Wuggy quase não existiu:",
+        "😺 CatNap foi um dos personagens mais assustadores:",
+        "🎒 O GrabPack é inspirado em brinquedos reais:",
+        "📺 Ficou famoso por causa dos YouTubers:",
+        "📼 A história é contada por fitas:"
+      ],
+      "curiosities": [
+        "O personagem Huggy Wuggy não seria o principal inimigo no início do desenvolvimento, mas acabou se tornando o mascote mais famoso do jogo.",
+        "CatNap se destacou por sua atmosfera sombria e habilidade de usar gás para afetar o jogador, aumentando ainda mais o terror no Capítulo 3.",
+        "A ferramenta GrabPack foi inspirada em brinquedos mecânicos com braços extensíveis, adaptados para criar puzzles únicos no jogo.",
+        "Criadores de conteúdo ajudaram o jogo a viralizar, o que aumentou muito sua popularidade rapidamente.",
+        "Grande parte da história é revelada por fitas VHS e pelo ambiente, incentivando o jogador a explorar e descobrir os segredos sozinho."
+      ],
+      "platforms": [
+        {
+          "url": "src/assets/imgs/game-platforms/Steam-logo.png",
+          "alt": "Logo oficial da Steam"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/Playstation logo.png",
+          "alt": "Logo oficial da Playstation"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/xbox-logo.png",
+          "alt": "Logo oficial do Xbox"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/nintendo-switch-logo.png",
+          "alt": "Logo oficial do Nintendo Switch"
+        },
+        {
+          "url": "src/assets/imgs/game-platforms/mobile-android-apple.png",
+          "alt": "Logo oficial do Android e IOS"
+        }
+      ],
+      "trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xMQm8ubM-Cw?si=dWOKbwTnI0QfMyZd\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "extraSection": {
+        "itHas": true,
+        "extraContent": [
+          {
+            "accName": "Capítulo 1",
+            "contentName": "A Tight Squeeze (Um Abraço Apertado)",
+            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter1.webp",
+            "contentDate": "12/10/2021",
+            "synopisis": "um ex-funcionário retorna à fábrica abandonada da Playtime Co. após 10 anos do misterioso desaparecimento de todos os funcionários.",
+            "characters": [
+              "- Protagonista (Nome não revelado)",
+              "- Huggy Wuggy",
+              "- Poppy"
+            ],
+            "antagonist": {
+              "antagonistName": "Huggy Wuggy (Experimento 1170)",
+              "features": [
+                "- Perseguidor do Capítulo 1",
+                "- Experimento Bigger Body",
+                "- Possui diversos dentes dentro de sua boca",
+                "- Mascote Oficial do Jogo"
+              ]
+            },
+            "lore": "No Capítulo 1 de Poppy Playtime, o protagonista, um ex-funcionário da Playtime Co., retorna à fábrica após receber uma fita misteriosa sobre o desaparecimento dos funcionários. Durante a exploração, ele encontra o GrabPack e descobre que os brinquedos estão vivos. O mascote Huggy Wuggy o persegue pela fábrica, mas o jogador consegue escapar. No final, o protagonista encontra uma caixa secreta e liberta Poppy, que agradece por ser libertada, indicando que sabe mais sobre os segredos da fábrica.",
+            "gameplayMechanics": [
+              "- Grabpack (Mão Azul e Vermelha)",
+              "- Puzzles utilizando cabos de energia.",
+              "- Portas bloqueados com mecanismos para grabpack."
+            ],
+            "steamLink": "https://store.steampowered.com/app/1721470/Poppy_Playtime/"
+          },
+          {
+            "accName": "Capítulo 2",
+            "contentName": "Fly in a web (Mosca na teia)",
+            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter2.png",
+            "contentDate": "5/5/2022",
+            "synopisis": "Depois do capítulo anterior, segue o ex-funcionário preso na fábrica, forçado pela monstro Mommy Long Legs a competir em jogos mortais na Game Station para conseguir um código de trem.",
+            "characters": [
+              "- Mommy Long Legs",
+              "- Bunzo Bunny",
+              "- PJ Pugapillar",
+              "- Kissy Missy",
+              "- O Protótipo"
+            ],
+            "antagonist": {
+              "antagonistName": "Mommy Long Legs (Experimento 1222)",
+              "features": [
+                "- Perseguidora do capítulo 2",
+                "- Age como se fosse uma aranha",
+                "- Comanda a estação de jogos",
+                "- Extremamente elástica e flexível"
+              ]
+            },
+            "lore": "No Capítulo 2 de Poppy Playtime, Poppy pede ajuda ao protagonista para fugir da fábrica, mas é capturada por Mommy Long Legs, que o obriga a participar de vários jogos perigosos na Game Station. Durante os desafios, o jogador descobre mais sobre os experimentos da Playtime Co. e percebe que os brinquedos têm consciência e emoções. Após completar os jogos, Mommy Long Legs persegue o protagonista, mas acaba sendo destruída por uma máquina e menciona o Protótipo antes de morrer, mostrando que tem medo dele. No final, o protagonista liberta Poppy, mas em vez de fugir, ela decide levá-lo mais fundo na fábrica, indicando que ainda há mais mistérios a serem revelados.",
+            "gameplayMechanics": [
+              "- Mão Verde",
+              "- Agarrar em plataformas para swing",
+              "- Colecionáveis de personagens dourados."
+            ],
+            "steamLink": "https://store.steampowered.com/app/1817490/Poppy_Playtime__Chapter_2/"
+          },
+          {
+            "accName": "Capítulo 3",
+            "contentName": "Deep Sleep (Sono Profundo)",
+            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter3.webp",
+            "contentDate": "30/1/2024",
+            "synopisis": "No Capítulo 3 de Poppy Playtime, o protagonista é levado por Poppy até uma área mais profunda da fábrica chamada Playcare, um local que funcionava como um orfanato.",
+            "characters": [
+              "- Catnap",
+              "- Ms. Delight",
+              "- Mini Smiling Critters",
+              "- Ollie / O Protótipo",
+              "- Dogday"
+            ],
+            "antagonist": {
+              "antagonistName": "Catnap (Experimento 1188)",
+              "features": [
+                "- Perseguidor do Capítulo 3",
+                "- Possui um gás vermelho capaz de adormecer pessoas.",
+                "- Extremamente leal ao Protótipo.",
+                "- Tem total controle do Berçário."
+              ]
+            },
+            "lore": "No Capítulo 3 de Poppy Playtime, o protagonista chega à área chamada Playcare, um antigo orfanato dentro da fábrica da Playtime Co.. Lá, é revelado que a empresa usava crianças como parte de experimentos para transformá-las em brinquedos vivos, como parte do projeto Bigger Bodies Initiative. O local mostra que essas crianças viviam presas e eram usadas sem saber o verdadeiro propósito dos experimentos. O principal inimigo é CatNap, que é leal ao Prototype e ajuda a controlar o local. Ele usa um gás para causar alucinações e enfraquecer o protagonista. Durante o capítulo, fica claro que o Protótipo é visto como uma figura de autoridade ou até de adoração por alguns brinquedos, e que ele está reunindo partes de outros brinquedos. No final, CatNap é derrotado, e o Protótipo aparece para pegar seu corpo, mostrando que continua ativo e cada vez mais poderoso.",
+            "gameplayMechanics": [
+              "- Mão Roxa",
+              "- Mão Sinalizadora",
+              "- Máscara de Gás"
+            ],
+            "steamLink": "https://store.steampowered.com/app/2555190/Poppy_Playtime__Chapter_3/"
+          },
+          {
+            "accName": "Capítulo 4",
+            "contentName": "Safe Haven (Porto Seguro)",
+            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter4.png",
+            "contentDate": "30/1/2025",
+            "synopisis": "No Capítulo 4 de Poppy Playtime, o jogador explora níveis ainda mais profundos da antiga fábrica da Playtime Co.. Com a ajuda de Poppy e do aliado Doey, o jogador enfrenta os perigos criados por O Doutor e seu brinquedo hostil Yarnaby, enquanto tenta sobreviver e descobrir os segredos da fábrica.",
+            "characters": [
+              "- O Doutor",
+              "- Doey the Doughman",
+              "- Yarnaby",
+              "- Nightmare Critters",
+              "- O Protótipo",
+              "- Huggy Wuggy"
+            ],
+            "antagonist": {
+              "antagonistName": "O Doutor: Harley Sawyer (Experimento 1354)",
+              "features": [
+                "- Principal antagonista do capítulo 4",
+                "- Já foi um cientista brilhante na Playtime.Co",
+                "- Observa o jogador pelas câmeras",
+                "- Tem Yarnaby como 'pet'."
+              ]
+            },
+            "lore": "O capítulo revela os horrores da Playtime Co.: experimentos com crianças e brinquedos que se tornaram monstros. O Doutor monitora o jogador com câmeras, armadilhas e criaturas hostis, como Yarnaby, para impedir o avanço. Doey, aliado maleável, ajuda o jogador a escapar e alcançar o Safe Haven, onde brinquedos não-agressivos se refugiaram. Enquanto o jogador tenta resgatar órfãos e plantar explosivos para destruir a fábrica, Doey enlouquece após a destruição do refúgio, transformando-se em uma criatura violenta que deve ser derrotada. No final, a traição de Ollie, revelado como Protótipo, mostra que nada é o que parece, deixando Poppy e o jogador em perigo e preparando o próximo capítulo.",
+            "gameplayMechanics": [
+              "- Omni-Hand",
+              "- Puzzles em perseguições",
+              "- Entrar em lugares estreitos"
+            ],
+            "steamLink": "https://store.steampowered.com/app/3008670/Poppy_Playtime__Chapter_4/"
+          },
+          {
+            "accName": "Capítulo 5",
+            "contentName": "Broken Things (Coisas Quebradas)",
+            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter5.webp",
+            "contentDate": "18/2/2026",
+            "synopisis": "No Capítulo 5, o jogador continua sua jornada ainda mais nas profundezas da fábrica abandonada da Playtime Co., agora assolado por perigos cada vez maiores. A história começa com uma perseguição implacável por Huggy Wuggy assim que o protagonista tenta avançar para as áreas mais obscuras da instalação.",
+            "characters": [
+              "- Huggy Wuggy",
+              "- Giblet",
+              "- Chum Chompkins",
+              "- Lily Lovebraids",
+              "- O Protótipo"
+            ],
+            "antagonist": {
+              "antagonistName": "O Protótipo (Experimento 1006)",
+              "features": [
+                "- Principal antagonista do capítulo 5",
+                "- Possui várias partes de brinquedos acoplados ao seu corpo",
+                "- Possui visual de bobo da corte",
+                "- Tem uma rixa com a Poppy."
+              ]
+            },
+            "lore": "Após os eventos de Safe Haven, o jogador continua preso nas profundezas da fábrica da Playtime Co., agora enfrentando a ameaça direta do Prototype, que se tornou o antagonista central. Huggy Wuggy persegue o protagonista, enquanto aliados e inimigos cruzam seu caminho, como Giblet (que ajuda) e Lily Lovebraids (que captura personagens). O capítulo revela que a fábrica é um sistema cruel de manipulação e experimentos com brinquedos e humanos. O jogador descobre segredos sobre o Poppy Gel e o Negation Compound, enfrenta mortes e ataques de monstros que eram aliados, e é levado ao limite ao ser jogado num tanque de Poppy Gel, mostrando que o Prototype controla tudo e que a luta está longe de acabar.",
+            "gameplayMechanics": [
+              "- Mão de Pressão",
+              "- Glowby",
+              "- Mão Condutiva"
+            ],
+            "steamLink": "https://store.steampowered.com/app/4100940/Poppy_Playtime__Chapter_5/"
+          }
+        ]
       }
     }
   ]

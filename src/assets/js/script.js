@@ -160,8 +160,10 @@ function verifyContent(game) {
   const itHas = game.extraSection.itHas;
 
   if (!itHas) {
+    extraContent.innerHTML = "";
     return;
   } else {
+    extraContent.innerHTML = "";
     showAccordions(game);
   }
 }
@@ -180,24 +182,24 @@ function showAccordions(game) {
     accContent.classList.add("accordion-content");
     const overview = document.createElement("div");
 
-    overview.innerHTML = `  <h2 class="overview-title">Visão Geral:</h2>
+    overview.innerHTML = `  <h2 class="overview-title">🔎 Visão Geral:</h2>
                             <p class="extra-name">Nome do conteúdo: <span>${p.contentName}</span></p>
                             <p class="extra-data">Data de lançamento: ${p.contentDate}</p>`;
 
     const synopisis = document.createElement("div");
-    synopisis.innerHTML = ` <h2 class="synopisis">Sinópse:</h2>
+    synopisis.innerHTML = ` <h2 class="synopisis">📘 Sinopse:</h2>
                             <p>${p.synopisis}</p>`;
 
     const characters = document.createElement("div");
     const charList = p.characters.map((c) => `<li>${c}</li>`);
-    characters.innerHTML = `<h2 class="acc-characters">Personagens: </h2>
+    characters.innerHTML = `<h2 class="acc-characters">🚹 Personagens: </h2>
               <ul class="acc-ul">
                 ${charList}
               </ul>`;
 
     const antagonistContent = document.createElement("div");
     const featureList = p.antagonist.features.map((f) => `<li>${f}</li>`);
-    antagonistContent.innerHTML = `<h2 class="main-antagonist-title">Antagonista:</h2>
+    antagonistContent.innerHTML = `<h2 class="main-antagonist-title">👿 Antagonista:</h2>
                                      <h3 class="antagonist-name">Nome: <span>${p.antagonist.antagonistName}</span></h3>
                                      <h4 class="antagonist-features">Características:</h4>
                                      <ul class="acc-ul">
@@ -205,12 +207,12 @@ function showAccordions(game) {
                                      </ul>`;
 
     const loreContent = document.createElement("div");
-    loreContent.innerHTML = ` <h2 class="lore-title">Lore:</h2>
+    loreContent.innerHTML = ` <h2 class="lore-title">📚 Lore:</h2>
                               <p>${p.lore}</p>`;
 
     const gameplayMechanicsContent = document.createElement("div");
     const mechanicList = p.gameplayMechanics.map((g) => `<li>${g}</li>`);
-    gameplayMechanicsContent.innerHTML = `<h2 class="mechanics-title">Novas Mecânicas</h2>
+    gameplayMechanicsContent.innerHTML = `<h2 class="mechanics-title">🎮 Novas Mecânicas:</h2>
                                    <ul class="acc-ul">
                                       ${mechanicList}
                                    </ul>`;
