@@ -1192,12 +1192,6 @@ footer {
   }
 }
 
-@media (min-width: 300px) and (max-width: 350px) {
-}
-
-@media (min-width: 280px) and (max-width: 300px) {
-}
-
 @media (min-width: 280px) and (max-width: 350px) {
   #gameLogo {
     width: 180px;
@@ -1364,10 +1358,6 @@ footer {
 
   .accordion-content div > p {
     font-size: 14px;
-  }
-
-  .accordion-content.active {
-    height: 1250px;
   }
 }
 
