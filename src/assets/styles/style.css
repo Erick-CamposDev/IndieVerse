@@ -1193,15 +1193,9 @@ footer {
 }
 
 @media (min-width: 300px) and (max-width: 350px) {
-  .accordion-content.active {
-    height: 1250px;
-  }
 }
 
 @media (min-width: 280px) and (max-width: 300px) {
-  .accordion-content.active {
-    height: 1350px;
-  }
 }
 
 @media (min-width: 280px) and (max-width: 350px) {
@@ -1260,10 +1254,6 @@ footer {
     height: 170px;
   }
 
-  .accordion-content.active {
-    height: 1250px;
-  }
-
   .accordion-content div > h2,
   div > h3,
   div > h4 {
@@ -1302,10 +1292,6 @@ footer {
 @media (min-width: 425px) and (max-width: 550px) {
   .modal {
     width: auto;
-  }
-
-  .accordion-content.active {
-    height: 1150px;
   }
 
   .accordion-content div > h2,
@@ -1373,11 +1359,11 @@ footer {
   .accordion-content div > h2,
   div > h3,
   div > h4 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .accordion-content div > p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .accordion-content.active {
@@ -1399,6 +1385,10 @@ footer {
 
   .tabBtns span {
     opacity: 1;
+  }
+
+  .accordion-content {
+    overflow: hidden;
   }
 
   .tab-buttons {

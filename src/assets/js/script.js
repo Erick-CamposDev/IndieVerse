@@ -220,6 +220,8 @@ function showAccordions(game) {
     accSteam.innerHTML = `<a class="acc-steam-btn" href="${p.steamLink}" target="_blank"><img alt="Ir para a página da steam do conteúdo" src="src/assets/imgs/game-platforms/Steam-logo.png"></a>
                           <p>Acesse o conteúdo na steam!</p>`;
 
+    const isMobile = window.matchMedia("(max-width: 766px)");
+
     accBtn.addEventListener("click", () => {
       const headers = document.querySelectorAll(".accordion-header");
       const otherContents = document.querySelectorAll(".accordion-content");
@@ -233,11 +235,25 @@ function showAccordions(game) {
       otherContents.forEach((c) => {
         if (c !== accContent) {
           c.classList.remove("active");
+
+          if (isMobile.matches) {
+            c.style.height = "0px";
+          } else {
+            c.style.height = "";
+          }
         }
       });
 
       accBtn.classList.toggle("active");
       accContent.classList.toggle("active");
+
+      if (isMobile.matches) {
+        if (accContent.classList.contains("active")) {
+          accContent.style.height = accContent.scrollHeight + 50 + "px";
+        } else {
+          accContent.style.height = "0px";
+        }
+      }
     });
 
     accordion.appendChild(accBtn);
