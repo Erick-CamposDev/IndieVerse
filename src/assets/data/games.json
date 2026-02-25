@@ -890,7 +890,7 @@
           {
             "accName": "Capítulo 2",
             "contentName": "Fly in a web (Mosca na teia)",
-            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter2.png",
+            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter2.jpg",
             "contentDate": "5/5/2022",
             "synopisis": "Depois do capítulo anterior, segue o ex-funcionário preso na fábrica, forçado pela monstro Mommy Long Legs a competir em jogos mortais na Game Station para conseguir um código de trem.",
             "characters": [
@@ -920,7 +920,7 @@
           {
             "accName": "Capítulo 3",
             "contentName": "Deep Sleep (Sono Profundo)",
-            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter3.webp",
+            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter3.avif",
             "contentDate": "30/1/2024",
             "synopisis": "No Capítulo 3 de Poppy Playtime, o protagonista é levado por Poppy até uma área mais profunda da fábrica chamada Playcare, um local que funcionava como um orfanato.",
             "characters": [
@@ -950,7 +950,7 @@
           {
             "accName": "Capítulo 4",
             "contentName": "Safe Haven (Porto Seguro)",
-            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter4.png",
+            "contentImg": "src/assets/imgs/extra-content-imgs/poppyPlaytime/chapter4.avif",
             "contentDate": "30/1/2025",
             "synopisis": "No Capítulo 4 de Poppy Playtime, o jogador explora níveis ainda mais profundos da antiga fábrica da Playtime Co.. Com a ajuda de Poppy e do aliado Doey, o jogador enfrenta os perigos criados por O Doutor e seu brinquedo hostil Yarnaby, enquanto tenta sobreviver e descobrir os segredos da fábrica.",
             "characters": [

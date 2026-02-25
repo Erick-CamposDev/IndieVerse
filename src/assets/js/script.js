@@ -191,14 +191,14 @@ function showAccordions(game) {
                             <p>${p.synopisis}</p>`;
 
     const characters = document.createElement("div");
-    const charList = p.characters.map((c) => `<li>${c}</li>`);
+    const charList = p.characters.map((c) => `<li>${c}</li>`).join("");
     characters.innerHTML = `<h2 class="acc-characters">🚹 Personagens: </h2>
               <ul class="acc-ul">
                 ${charList}
               </ul>`;
 
     const antagonistContent = document.createElement("div");
-    const featureList = p.antagonist.features.map((f) => `<li>${f}</li>`);
+    const featureList = p.antagonist.features.map((f) => `<li>${f}</li>`).join("");
     antagonistContent.innerHTML = `<h2 class="main-antagonist-title">👿 Antagonista:</h2>
                                      <h3 class="antagonist-name">Nome: <span>${p.antagonist.antagonistName}</span></h3>
                                      <h4 class="antagonist-features">Características:</h4>
@@ -211,7 +211,7 @@ function showAccordions(game) {
                               <p>${p.lore}</p>`;
 
     const gameplayMechanicsContent = document.createElement("div");
-    const mechanicList = p.gameplayMechanics.map((g) => `<li>${g}</li>`);
+    const mechanicList = p.gameplayMechanics.map((g) => `<li>${g}</li>`).join("");
     gameplayMechanicsContent.innerHTML = `<h2 class="mechanics-title">🎮 Novas Mecânicas:</h2>
                                    <ul class="acc-ul">
                                       ${mechanicList}
