@@ -14,7 +14,7 @@
 
 ## 🌟 Funcionalidades
 
-- Catálogo de **7 jogos indie** atualmente, com mais jogos planejados para o futuro.
+- Catálogo de **10 jogos indie** atualmente, com mais jogos planejados para o futuro.
 - **Pesquisa interativa** para mudar de jogo rapidamente.
 - **Responsivo**: Mobile first, funcionando perfeitamente em smartphones, tablets e desktops.
 - Estrutura de dados **JSON**
@@ -26,9 +26,11 @@
      - Prêmios
      - Curiosidades
   2. Modal dedicado apenas ao **trailer do jogo** com o uso de <iframes>.
-- Criado com **HTML, CSS e JavaScript puro**.
-- Layout pensado para **usabilidade e estética moderna**.
-  3. Acordeões para jogos que são divididos em capítulos. Ex: Deltarune e Poppy Playtime.
+    - Criado com **HTML, CSS e JavaScript puro**.
+    - Layout pensado para **usabilidade e estética moderna**.
+- **Acordeões**
+    - Acordeões para jogos que são divididos em capítulos. Ex: Deltarune e Poppy Playtime.
+    - Cada acordeão possui informações específicas para cada capítulo em si.
 ---
 
 ## 📁 Estrutura principal do projeto
