@@ -17,8 +17,7 @@
 - Catálogo de **7 jogos indie** atualmente, com mais jogos planejados para o futuro.
 - **Pesquisa interativa** para mudar de jogo rapidamente.
 - **Responsivo**: Mobile first, funcionando perfeitamente em smartphones, tablets e desktops.
-- Estrutura de dados **orientada a objetos**:
-  - A classe `Game` armazena todas as informações de cada jogo via construtor.
+- Estrutura de dados **JSON**
   - Todos os dados dos jogos estão armazendados em um **JSON Interno** no projeto.
 - **Dois modals**:
   1. Modal principal com **4 tabs**:
@@ -29,7 +28,7 @@
   2. Modal dedicado apenas ao **trailer do jogo** com o uso de <iframes>.
 - Criado com **HTML, CSS e JavaScript puro**.
 - Layout pensado para **usabilidade e estética moderna**.
-
+  3. Acordeões para jogos que são divididos em capítulos. Ex: Deltarune e Poppy Playtime.
 ---
 
 ## 📁 Estrutura principal do projeto
@@ -73,7 +72,7 @@
 
 ## 📌 Observações
 
-- Landing page ainda em desenvolvimento.
+- Landing page irá ser desenvolvida.
 
 - Novos jogos serão adicionados futuramente ao catálogo.
 
