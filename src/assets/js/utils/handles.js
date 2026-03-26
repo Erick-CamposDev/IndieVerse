@@ -1,3 +1,5 @@
+import { errorMessage, errorMessageMobile } from "../services/constsAndLets.js";
+
 export function showError(msg) {
   errorMessage.innerHTML = `<p>${msg}</p>`;
   errorMessage.style.color = "#ff0000";

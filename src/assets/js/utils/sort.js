@@ -1,4 +1,4 @@
-import { gameLists } from "../services/constsAndLets";
+import { gameLists } from "../services/constsAndLets.js";
 
 export default async function sortGames() {
   try {

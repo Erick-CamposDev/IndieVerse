@@ -1,8 +1,8 @@
-import { modal, modals, modalContents } from "./constsAndLets";
-import { platformList } from "./constsAndLets";
-import { gameTitle, gameTypeModal, gameContent } from "./constsAndLets";
-import { creator } from "./constsAndLets";
-import { dataLaunch } from "./constsAndLets";
+import { modal, modals, modalContents } from "./constsAndLets.js";
+import { platformList } from "./constsAndLets.js";
+import { gameTitle, gameTypeModal, gameContent } from "./constsAndLets.js";
+import { creator } from "./constsAndLets.js";
+import { dataLaunch } from "./constsAndLets.js";
 import {
   gameplayContent,
   gameplayList,
@@ -10,10 +10,12 @@ import {
   awardList,
   legacy,
   curiosities,
-} from "./constsAndLets";
-import { videoContainer } from "./constsAndLets";
-import { tabBtns } from "./constsAndLets";
-import { gameBarMobile } from "./constsAndLets";
+} from "./constsAndLets.js";
+import { videoContainer } from "./constsAndLets.js";
+import { tabBtns } from "./constsAndLets.js";
+import { gameBarMobile } from "./constsAndLets.js";
+import { tabMenu } from "../mobile.js";
+import showInfoBySearch from "./searchGame.js";
 
 export function modalChange(game) {
   //CONTÉUDO 1
@@ -68,14 +70,6 @@ export function modalChange(game) {
   videoContainer.innerHTML = `${game.trailer}`;
 }
 
-gameBarMobile.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    showInfoBySearch();
-  } else {
-    return;
-  }
-});
-
 export function openModal(index, index2) {
   modal.style.display = "flex";
   modals[index].style.display = "flex";
@@ -91,14 +85,16 @@ export function closeVideoModal() {
   modal.style.display = "none";
 }
 
-tabBtns.forEach((button, i) => {
-  button.addEventListener("click", () => {
-    modalContents.forEach((content, ci) => {
-      if (i === ci) {
-        content.style.display = "flex";
-      } else {
-        content.style.display = "none";
-      }
+export function handleClick() {
+  tabBtns.forEach((button, i) => {
+    button.addEventListener("click", () => {
+      modalContents.forEach((content, ci) => {
+        if (i === ci) {
+          content.style.display = "flex";
+        } else {
+          content.style.display = "none";
+        }
+      });
     });
   });
-});
+}

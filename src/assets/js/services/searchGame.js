@@ -1,19 +1,20 @@
-// prettier-ignoreimport * as handles from "./utils/handles";
-import { gameBar, gameBarMobile } from "./constsAndLets";
-import { steam, steamMobile } from "./constsAndLets";
-import { errorMessage, errorMessageMobile } from "./constsAndLets";
-import { loading, loadingMsg } from "./constsAndLets";
+// prettier-ignore
+import * as handles from "../utils/handles.js"
+import { gameBar, gameBarMobile } from "./constsAndLets.js";
+import { steam, steamMobile } from "./constsAndLets.js";
+import { errorMessage, errorMessageMobile } from "./constsAndLets.js";
+import { loading, loadingMsg } from "./constsAndLets.js";
 import {
   gameLogo,
   gameCharacter,
   gameType,
   gameDescription,
-} from "./constsAndLets";
-import { main } from "./constsAndLets";
-import { verifyContent } from "./accordions";
-import { modalChange } from "./modals";
+} from "./constsAndLets.js";
+import { main } from "./constsAndLets.js";
+import { verifyContent } from "./accordions.js";
+import { modalChange } from "./modals.js";
 
-async function showInfoBySearch() {
+export default async function showInfoBySearch() {
   const searchBar = gameBar || gameBarMobile;
   const searchValue = gameBar.value || gameBarMobile.value;
 

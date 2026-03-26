@@ -1,4 +1,4 @@
-import { extraContent } from "./constsAndLets";
+import { extraContent } from "./constsAndLets.js";
 
 export function verifyContent(game) {
   const itHas = game.extraSection.itHas;

@@ -1,9 +1,12 @@
+import { errorMessageMobile } from "./services/constsAndLets.js";
+import { modalContents } from "./services/constsAndLets.js";
+
 const menuMobile = document.getElementById("menuMobile");
 const menuBtn = document.getElementById("menuBtn");
 const closeBtn = document.getElementById("closeBtn");
 
 const tabModalBtn = document.getElementById("tabMenuBtn");
-const tabMenu = document.querySelector(".tab-menu-mobile");
+export const tabMenu = document.querySelector(".tab-menu-mobile");
 
 const btnsMobile = document.querySelectorAll(".mobileTabBtn");
 
